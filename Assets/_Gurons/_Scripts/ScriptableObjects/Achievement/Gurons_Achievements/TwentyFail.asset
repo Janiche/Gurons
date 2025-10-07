@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc9b591b28f7f490ebb7a78d9714f097, type: 3}
+  m_Name: TwentyFail
+  m_EditorClassIdentifier: 
+  id: 11
+  _icon: {fileID: 21300000, guid: 185b37535d3a142e2a0de4fa199bcfdc, type: 3}
+  _name: TwentyFail
+  _reward: {fileID: 11400000, guid: 56bee8502a7444fcd8b96357ccd2e74d, type: 2}
+  _gurons: 20
+  _condition: 4

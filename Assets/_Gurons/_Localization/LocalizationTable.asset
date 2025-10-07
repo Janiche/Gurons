@@ -1,0 +1,1767 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 749122ca687073649af3faaf57ce2dd5, type: 3}
+  m_Name: LocalizationTable
+  m_EditorClassIdentifier: 
+  m_languageKeys:
+  - Default
+  - en
+  - es
+  - pt
+  - it
+  m_languageValues: 0000000001000000020000000300000004000000
+  m_fieldKeys: 0100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f000000300000003100000032000000330000003400000035000000360000003700000038000000390000003a0000003b0000003c0000003d0000003e0000003f000000400000004100000042000000430000004400000045000000460000004700000048000000490000004a0000004b0000004c0000004d0000004e0000004f000000500000005100000052000000530000005400000055000000560000005700000058000000590000005a0000005b0000005c0000005d0000005e0000005f000000600000006100000062000000630000006400000065000000660000006700000068000000690000006a0000006b0000006c0000006d0000006e0000006f000000700000007100000072000000730000007400000075000000760000007700000078000000790000007a0000007b0000007c0000007d0000007e0000007f000000800000008100000082000000830000008400000085000000860000008700000088000000890000008a0000008b0000008c0000008d0000008e0000008f000000900000009100000092000000930000009400000095000000960000009700000098000000990000009a0000009b0000009c0000009d0000009e0000009f000000a0000000a1000000a2000000a3000000a4000000a5000000a6000000a7000000a8000000a9000000aa000000ab000000ac000000ad000000ae000000af000000b0000000b1000000b2000000b3000000b4000000b5000000b6000000b7000000b8000000b9000000ba000000bb000000bc000000bd000000be000000bf000000c0000000c1000000c2000000c3000000c4000000c5000000c6000000c7000000c8000000c9000000ca000000cb000000cc000000cd000000ce000000cf000000d0000000d1000000d2000000d3000000d4000000d5000000d6000000d7000000
+  m_fieldValues:
+  - m_fieldName: Title.NewGame
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - New game
+    - Nuevo Juego
+    - Novo Jogo
+    - Nuovo Gioco
+    - 
+  - m_fieldName: Title.Store
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Store
+    - Tienda
+    - Loja
+    - Shop
+    - 
+  - m_fieldName: Title.Settings
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Settings
+    - "Configuraci\xF3n"
+    - "Configura\xE7\xE3o"
+    - Impostazione
+    - 
+  - m_fieldName: Title.Version
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Version
+    - "Versi\xF3n"
+    - "Vers\xE3o"
+    - Versione
+    - 
+  - m_fieldName: Title.Planet
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Select a planet
+    - Selecciona un Planeta
+    - Selecione um Planeta
+    - Seleziona un Pianeta
+    - 
+  - m_fieldName: Title.Reward
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Daily reward
+    - Recompensa Diaria
+    - "Recompensa Di\xE1ria"
+    - Premio quotidiano
+    - 
+  - m_fieldName: Title.Rate
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Rate "The Gurons"
+    - Calificar  "The Gurons"
+    - Qualificar "The Gurons"
+    - Valuta "The Gurons"
+    - 
+  - m_fieldName: Title.Score
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - 'Score:'
+    - 'Puntaje:'
+    - "Pontuac\xE3o:"
+    - Punteggio
+    - 
+  - m_fieldName: Title.Best
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Record
+    - Record
+    - Recorde
+    - Record
+    - 
+  - m_fieldName: Title.Pause
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Pause
+    - Pausa
+    - Pausa
+    - Pausa
+    - 
+  - m_fieldName: Title.Congrats
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Congratulations!
+    - "\xA1\xA1Felicitaciones!!"
+    - "Parab\xE9ns"
+    - Congratulazioni!!
+    - 
+  - m_fieldName: Title.ProductDescription
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - 'Contains:'
+    - 'Contiene:'
+    - "Cont\xE9m"
+    - Contenuto
+    - 
+  - m_fieldName: Title.NoGameLife
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Wait a moment!
+    - "\xA1Un Momento!"
+    - "\xA1Um Momento!"
+    - Un attimo!
+    - 
+  - m_fieldName: Title.ScratchWin
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Scrape and win
+    - Raspa & Gana
+    - Raspa e Ganha
+    - Gratta eVince
+    - 
+  - m_fieldName: Title.Scratch
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Scrape!
+    - "\xA1\xA1Raspa!!"
+    - Raspa!!
+    - Gratta!
+    - 
+  - m_fieldName: Title.Achievements
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Achievements
+    - Logros
+    - Conquistas
+    - Realizzazioni
+    - 
+  - m_fieldName: Title.AchievementUnlocked
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Achievement unlocked
+    - Logro Desbloqueado
+    - Conquista desbloqueada
+    - Obiettivo sbloccato
+    - 
+  - m_fieldName: Planet.Gravity
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Gravity
+    - Gravedad
+    - Gravidade
+    - "Gravit\xE0"
+    - 
+  - m_fieldName: Planet.Wind
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Wind
+    - Viento
+    - Vento
+    - Vento
+    - 
+  - m_fieldName: Planet.Progress
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - 'Progress '
+    - Progreso
+    - Progresso
+    - Progresso
+    - 
+  - m_fieldName: Planet.Best
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Best score
+    - Mejor Puntaje
+    - "Melhor Pontua\xE7\xE3o"
+    - Migliore Punteggio
+    - 
+  - m_fieldName: Planet.Normal
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Play with no end and unlock new planets
+    - Juega sin fin y desbloquea nuevos planetas
+    - Joga sem parar y desbloqueia novos planetas
+    - Gioca senza fine e sblocca nuovi pianeti
+    - 
+  - m_fieldName: Planet.Play
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Play
+    - Jugar
+    - Jogar
+    - Giocare
+    - 
+  - m_fieldName: Planet.Unlocked.Title
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Unlocked planet
+    - Planeta Desbloqueado
+    - Planeta Desbloqueado
+    - Pianeta Sbloccato
+    - 
+  - m_fieldName: Planet.Unlocked.Message
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - You have unlocked the planet {0}
+    - Has desbloqueado el planeta {0}
+    - "Voc\xEA desbloqueou o planeta {0}"
+    - Hai sbloccato il pianeta {0}
+    - 
+  - m_fieldName: Store.Lifes
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Lives
+    - Vidas
+    - Vidas
+    - Vite
+    - 
+  - m_fieldName: Store.Diamonds
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Diamonds
+    - Diamantes
+    - Diamantes
+    - Diamanti
+    - 
+  - m_fieldName: Store.Failed
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Failed purchase
+    - Compra Fallida
+    - Falha na compra
+    - Acquisto fallito
+    - 
+  - m_fieldName: Store.Free
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Free
+    - Gratis
+    - "Gr\xE1tis"
+    - Gratis
+    - 
+  - m_fieldName: Store.Failed.Unknown
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Unable to complete purchase
+    - No se ha podido completar la compra
+    - "A compra n\xE3o concluiu"
+    - Non sei riuscito a fare l'acquisto
+    - 
+  - m_fieldName: Store.Failed.PaymentDeclined
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - your payment was declined
+    - Pago rechazado
+    - Pagamento recusado
+    - Pagamento rifiutato
+    - 
+  - m_fieldName: Store.Failed.ProductUnavailable
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Product not available
+    - Producto no disponible
+    - "Produto n\xE3o dispon\xEDvel "
+    - Prodotto non disponibile
+    - 
+  - m_fieldName: Store.Failed.UserCancelled
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - User has canceled the transaction
+    - "Usuario ha cancelado la transacci\xF3n"
+    - "O usu\xE1rio cancelou a transac\xE3o "
+    - L'utente ha cancelato l'operazione
+    - 
+  - m_fieldName: Store.Failed.InsufficientFounds
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Insufficient diamonds
+    - Diamantes Insuficientes
+    - Diamantes Insuficientes
+    - Diamanti insufficienti
+    - 
+  - m_fieldName: Store.Failed.InsufficientCoins
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Insufficient coins
+    - Monedas Insuficientes
+    - Moedas Insuficientes
+    - Monete insufficienti
+    - 
+  - m_fieldName: Store.Completed
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Successful purchase
+    - Compra Exitosa
+    - Compra bem Sucedida
+    - Acquisto riuscito
+    - 
+  - m_fieldName: Store.Completed.Message
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - 'Purchased product: <b><i>{0}</i></b>'
+    - 'Producto comprado: <b><i>{0}</i></b>'
+    - 'Produto Comprado: <b><i>{0}</i></b>'
+    - 'Prodotto acquistato: <b><i>{0}</i></b>'
+    - 
+  - m_fieldName: Setting.LangTitle
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Language
+    - Idioma
+    - Idioma
+    - Linguaggio
+    - 
+  - m_fieldName: Settings.Language
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - English
+    - "Espa\xF1ol"
+    - "Portugu\xEAs"
+    - Italiano
+    - 
+  - m_fieldName: Settings.Master
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - General
+    - General
+    - Geral
+    - Generale
+    - 
+  - m_fieldName: Settings.Music
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Music
+    - Musica
+    - "M\xFAsica"
+    - Musica
+    - 
+  - m_fieldName: Settings.Sfx
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Sound
+    - Sonido
+    - Som
+    - Suono
+    - 
+  - m_fieldName: Settings.Restore
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Restore
+    - Restaurar
+    - Restaurar
+    - Ristabilire
+    - 
+  - m_fieldName: Button.Unlock
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Unlock
+    - Desbloquear
+    - Desbloquear
+    - Sbloccare
+    - 
+  - m_fieldName: Buttons.Back
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Return
+    - Volver
+    - Voltar
+    - Ritornare
+    - 
+  - m_fieldName: Button.Play
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Play
+    - Jugar
+    - Jogar
+    - Giocare
+    - 
+  - m_fieldName: Button.Retry
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Retry
+    - Reintentar
+    - Tentar de novo
+    - Riprova
+    - 
+  - m_fieldName: Button.Continue
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Continue
+    - Continuar
+    - Continuar
+    - Continuare
+    - 
+  - m_fieldName: Button.RateNow
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Rate
+    - Calificar
+    - Qualificar
+    - Valutare
+    - 
+  - m_fieldName: Button.RateLater
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Later
+    - "M\xE1s Tarde"
+    - Mais Tarde
+    - "Pi\xF9 tardi"
+    - 
+  - m_fieldName: Button.RateNever
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - No. thanks
+    - No. Gracias
+    - "N\xE3o. Obrigado"
+    - No. Grazie
+    - 
+  - m_fieldName: Button.Buy
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Purchase
+    - Comprar
+    - Comprar
+    - Comprare
+    - 
+  - m_fieldName: Button.Ads
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Watch ads
+    - Ver Publicidad
+    - Ver Publicidade
+    - "Guardare la pubblicit\xE0"
+    - 
+  - m_fieldName: Button.Menu
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Menu
+    - "Men\xFA"
+    - Menu
+    - "Men\xF9 del gioco"
+    - 
+  - m_fieldName: Button.Restart
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Restart
+    - Reiniciar
+    - Reiniciar
+    - Riavviare
+    - 
+  - m_fieldName: Button.Quit
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Exit
+    - Salir
+    - Sair
+    - Uscire
+    - 
+  - m_fieldName: Button.Keep
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Keep playing
+    - Seguir Jugando
+    - Continuar Jogando
+    - Continuare la partita
+    - 
+  - m_fieldName: Button.NextPlanet
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Go to the selection
+    - "Ir a selecci\xF3n"
+    - Ir a selecao
+    - Andare alla selezione
+    - 
+  - m_fieldName: Button.TutorialSkip
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Skip
+    - Saltar
+    - 'Pular '
+    - Saltare
+    - 
+  - m_fieldName: Button.UpdateApp
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Reload
+    - Actualizar
+    - Atualizar
+    - Aggiornare
+    - 
+  - m_fieldName: Button.Privacy
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Privacy
+    - Privacidad
+    - Privacidade
+    - Privacy
+    - 
+  - m_fieldName: Button.Reclaim
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Reclaim
+    - Reclamar
+    - Recuperar
+    - Reclamare
+    - 
+  - m_fieldName: one_life_bag.name
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - A life
+    - Una Vida
+    - 'Uma Vida '
+    - Una vita
+    - 
+  - m_fieldName: one_life_bag.description
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - A new life to keep playing
+    - Una nueva vida para seguir jugando
+    - Uma vida nova para continuar jogando
+    - Una nuova vita per continuare a giocare
+    - 
+  - m_fieldName: lifes_3_bag.name
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - A small bottle
+    - "Botella peque\xF1a"
+    - Garrafa pequena
+    - Bottiglia piccola
+    - 
+  - m_fieldName: lifes_3_bag.description
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - '- 3 lives'
+    - '- 3 vidas'
+    - -3 vidas
+    - ' - 3 vite'
+    - 
+  - m_fieldName: lifes_15_bag.name
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Medium bottle
+    - Botella mediana
+    - "Garrafa m\xE9dia"
+    - Bottiglia Media
+    - 
+  - m_fieldName: lifes_15_bag.description
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - '- 15 lives'
+    - '- 15 vidas'
+    - -15 vidas
+    - ' - 15 vite'
+    - 
+  - m_fieldName: lifes_25_bag.name
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Big bottle
+    - Botella grande
+    - Garrafa grande
+    - Bottiglia Grande
+    - 
+  - m_fieldName: lifes_25_bag.description
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - '- 25 lives'
+    - '- 25 vidas'
+    - -25 vidas
+    - ' - 25 vite'
+    - 
+  - m_fieldName: diamonds_25_bag.name
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Small bag
+    - "Bolsa peque\xF1a"
+    - Bolsa pequena
+    - Borsa piccola
+    - 
+  - m_fieldName: diamonds_25_bag.description
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - 25 diamonds
+    - '- 25 diamantes'
+    - -25 diamantes
+    - ' - 25 diamanti'
+    - 
+  - m_fieldName: diamonds_60_bag.name
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Medium bag
+    - Bolsa mediana
+    - "Bolsa m\xE9dia"
+    - Borsa media
+    - 
+  - m_fieldName: diamonds_60_bag.description
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - '- 60 diamonds'
+    - '- 60 diamantes'
+    - -60 diamantes
+    - ' - 60 diamanti'
+    - 
+  - m_fieldName: diamonds_100_bag.name
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Big bag
+    - Bolsa grande
+    - Bolsa grande
+    - Borsa Grande
+    - 
+  - m_fieldName: diamonds_100_bag.description
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - '- 100 diamonds'
+    - '- 100 diamantes'
+    - -100 diamantes
+    - ' - 100 diamanti'
+    - 
+  - m_fieldName: coins_400_bag.name
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Small box
+    - "Caja peque\xF1a"
+    - Caixa pequena
+    - Scattola piccola
+    - 
+  - m_fieldName: coins_400_bag.description
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - '- 400 coins'
+    - '- 400 monedas'
+    - -400 moedas
+    - ' - 400 monete'
+    - 
+  - m_fieldName: coins_1000_bag.name
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Medium box
+    - Caja mediana
+    - "Caixa m\xE9dia"
+    - Scattola media
+    - 
+  - m_fieldName: coins_1000_bag.description
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - '- 1000 coins'
+    - '- 1000 monedas'
+    - -1000 moedas
+    - ' - 1000 monedas'
+    - 
+  - m_fieldName: coins_1800_bag.name
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Big box
+    - Caja grande
+    - Caixa grande
+    - Scattola Grande
+    - 
+  - m_fieldName: coins_1800_bag.description
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - '- 1800 coins'
+    - '- 1800 monedas'
+    - -1800 moedas
+    - ' - 1800 monete'
+    - 
+  - m_fieldName: extra_chance.name
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - The chance
+    - La oportunidad
+    - A oportunidade
+    - "La opportunit\xE0"
+    - 
+  - m_fieldName: extra_chance.description
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - '- 1 extra chance'
+    - '- 1 oportunidad extra'
+    - -1 oportunidade extra
+    - " - 1 opportunit\xE0 extra"
+    - 
+  - m_fieldName: double_score.name
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - double score
+    - Doble Puntaje
+    - "Pontuac\xE3o dupla"
+    - Doppio punteggio
+    - 
+  - m_fieldName: double_score.description
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - A score multiplier
+    - '- 1 multiplicador de puntaje x2'
+    - "-1 multiplicador de pontuac\xE3o X2"
+    - ' - 1 moltiplicatore di punteggio'
+    - 
+  - m_fieldName: Reward.Advice
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Watch videos to get daily prizes!
+    - "\xA1Mira videos para conseguir premios diarios!"
+    - "Assista o video pra obter pr\xEAmios di\xE1rios"
+    - Guarda videos per ottenere premi ogni giorno!
+    - 
+  - m_fieldName: Reward.Prize
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Prize {0}
+    - Premio {0}
+    - "Pr\xEAmio {0}"
+    - Premio {0}
+    - 
+  - m_fieldName: Reward.Unlock
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Watch a video to unlock
+    - "\xA1Mira un video para desbloquear!."
+    - "Assista o v\xEDdeo para desbloquear!!"
+    - Guarda un video per sbloccare!
+    - 
+  - m_fieldName: Reward.Watch
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Watch
+    - Ver
+    - Ver
+    - Guardare
+    - 
+  - m_fieldName: Reward.Obtained
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Got it!
+    - "\xA1Obtenido!"
+    - Obtido
+    - Ricevuto!
+    - 
+  - m_fieldName: Msg.NoGameLife
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - You will need more <color=red>Lives</color> to retry this level.
+    - "Necesitar\xE1s m\xE1s <color=red>Vidas </color> para reintentar el nivel."
+    - "Voce precisa de mais <color=red>vidas </color>para tentar novamente o n\xEDvel."
+    - "Avrai bisogno di pi\xF9 <color=red>vite </color> per riprovare questo livello."
+    - 
+  - m_fieldName: Msg.NoMenuLife
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - If you want to keep playing you can buy some lives in the store or watch some
+      ads.
+    - Si quieres seguir jugando; puedes comprar algunas vidas en nuestra tienda o
+      ver algunos anuncios.
+    - "Se quiser continuar jogando; pode comprar algumas vidas em nossa loja ou ver
+      algums an\xFAncios "
+    - Se vuoi continuare a giocare puoi comprare vite nello store
+    - 
+  - m_fieldName: Msg.NoPowerup
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Do you want to buy this <color=red> Power Up</color> to use it?
+    - "\xBFDeseas comprar este <color=red>Poder</color> para utilizarlo?"
+    - "Deseja comprar este <color=red> Poder </color> para us\xE1-lo?"
+    - Vuoi comprare questo <color=red>Potere</color> ?
+    - 
+  - m_fieldName: Msg.NewPlanet
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - "You have unlocked a new planet\u2026 check it on the planet section. "
+    - "Has desbloqueado un nuevo planeta.\nDesc\xFAbrelo en la selecci\xF3n de planetas."
+    - "Voc\xEA desbloqueou um novo  planeta.\n Pode descobri-lo na sele\xE7\xE3o
+      de planetas"
+    - 'Hai sbloccato un nuovo pianeta .
+
+      Scoprilo nella sezione dei pianeti'
+    - 
+  - m_fieldName: Msg.Wait
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Wait please
+    - Por favor espera
+    - Aguarde por favor.
+    - Aspetta pe favore
+    - 
+  - m_fieldName: Msg.Rate
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - 'Are you enjoying The Gurons?
+
+      Do you mind taking a moment to rate it? '
+    - Si disfrutas jugar "The Gurons". Te importara tomar un momento para calificarlo?
+    - Ae gostou de jogar the gurons, se importaria de reservar um momento para avaliar?
+    - Se hai goduto giocando  "The Gurons". Ti prendiresti un attimo per valutarlo?
+    - 
+  - m_fieldName: Msg.LanguageSetted
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - The default language has been set in <b>English</b>
+    - "El lenguaje por defecto ha sido fijado en <b>Espa\xF1ol</b>."
+    - "O idioma padrao foi definido em <b>portugu\xEAs</b>"
+    - "Il linguaggio predefinito \xE8 <b>Italiano</b>."
+    - 
+  - m_fieldName: Msg.TutorialRetry
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Do you want to retry the tutorial?
+    - "\xBFDes\xE9as reintentar el tutorial?"
+    - Deseja repetir o tutorial?
+    - Vuoi riprovare il tutorial?
+    - 
+  - m_fieldName: Msg.TutorialCongrats
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - You have unlocked the planets selection
+    - Has desbloqueado la seleccion de Planetas
+    - "Desbloqueou a sele\xE7\xE3o de planetas"
+    - Hai sbloccato la sezione dei pianeti
+    - 
+  - m_fieldName: Msg.TutorialSkipWarning
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - (If you skip the tutorial, you will not be able to check it again)
+    - "(Si saltas el tutorial, no podr\xE1s volver a jugarlo)"
+    - "(Se pular o tutorial n\xE3o poder\xE1 voltar a joga-lo)"
+    - (Se vai avanti con il tutorial, non potrai tornare a giocarlo)
+    - 
+  - m_fieldName: Msg.NoAds
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - 'Advertising not available.
+
+      Try later'
+    - "Publicidad no disponible.\nIntenta m\xE1s tarde."
+    - "Publicidade n\xE3o dispon\xEDvel.\nTente mais tarde"
+    - "Pubblicit\xE0 non disponibile. \nProva pi\xF9 tardi"
+    - 
+  - m_fieldName: Inet.NoReacheability
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - "Cannot connect.\nYou must activate mobile data or \nbe connected to a Wi-Fi
+      network"
+    - "No se puede establecer conexi\xF3n.\nDebes activar los datos m\xF3viles o\nestar
+      conectado a una red Wifi."
+    - "N\xE3o pode se establecer a conex\xE3o.\nDeve ativar os datos m\xF3veis ou
+      se conectar a uma rede wi-fi"
+    - "Non si pu\xF2 stabilire la connessione- \nAttiva i dati mobili o\n devi essere
+      conesso alla rete WiFi"
+    - 
+  - m_fieldName: Inet.NoConection
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Internet connection cannot be established.
+    - " No se puede establecer conexi\xF3n a internet."
+    - "N\xE3o \xE9 poss\xEDvel estabelecer  conex\xE3o a internet"
+    - "Non si pu\xF2 stabilire la connessione a Internet"
+    - 
+  - m_fieldName: Inet.NoService
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Service not available. Data will be saved locally.
+    - "Servicio no disponible.\nLos datos ser\xE1n guardados de manera local."
+    - "Servi\xE7o n\xE3o dispon\xEDvel.\nOs dados ser\xE3o salvos localmente."
+    - "Servizio non disponibile. \nI dati saranno conservato di forma locale."
+    - 
+  - m_fieldName: Inet.NoServer
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Server not available.Please try again later
+    - "Servidor no disponible.\nPor favor intenta m\xE1s tarde"
+    - "Servidor n\xE3o dispon\xEDvel por favor tente mais tarde "
+    - "Servizio non disponibile. \nRiprova pi\xF9 tardi"
+    - 
+  - m_fieldName: Inet.NoSync
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - 'Connection cannot be established.
+
+      The saved data will be synchronized
+
+      the
+      next time you are online.'
+    - "No se puede establecer conexion.\nLos datos de guardado se sincronizar\nla
+      pr\xF3xima vez que est\xE9s en linea."
+    - "A conex\xE3o n\xE3o pode ser estabelecida.\nOs dados salvos s\xE3o sincronizados
+      na pr\xF3xima vez que voc\xEA estiver online."
+    - "Non si pu\xF2 stabilire la connessione. n\\I dati saranno sincronizzati n\\la
+      possima volta che ti connetti alla rete"
+    - 
+  - m_fieldName: Inet.NoStore
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Store not available without internet.
+    - Tienda no disponible sin internet.
+    - "Loja n\xE3o disponivel sem internet"
+    - Negozio non disponibile senza internet.
+    - 
+  - m_fieldName: Inet.NewVersion
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - There is a new version of The Gurons in the store
+    - "Hay una nueva versi\xF3n de The Gurons en la tienda"
+    - "H\xE1 uma nova vers\xE3o de the gurons na loja"
+    - C'e una nuova versione di The Gurons nella app store.
+    - 
+  - m_fieldName: Inet.State.Connecting
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - "Connecting\u2026"
+    - Conectando...
+    - "Conetando\u2026"
+    - Collegando...
+    - 
+  - m_fieldName: Inet.State.Server
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Connecting to the server
+    - Conectando al servidor.
+    - Conetando com o  servidor
+    - Collegando al server.
+    - 
+  - m_fieldName: Inet.State.Service
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Checking service.
+    - Comprobando servicio.
+    - "Verificando servi\xE7o"
+    - Controllando servizi
+    - 
+  - m_fieldName: Inet.State.Sync
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Synchronizing data
+    - Sincronizando datos.
+    - Sincronizando dados
+    - sincronizzando I dati.
+    - 
+  - m_fieldName: Inet.State.CheckVersion
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Checking version.
+    - "Revisando versi\xF3n"
+    - "Verificando vers\xE3o"
+    - Controllando versione
+    - 
+  - m_fieldName: Scratch.DoubleScore
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Double score
+    - Doble Puntaje
+    - "Pontua\xE7\xE3o Dupla"
+    - Doppio punteggio
+    - 
+  - m_fieldName: Scratch.ExtraChance
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Extra chance
+    - Oportunidad Extra
+    - Oportunidade Extra
+    - "Opportunit\xE0 extra"
+    - 
+  - m_fieldName: Scratch.Coins
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Coins
+    - Monedas
+    - 'Moedas '
+    - Monete
+    - 
+  - m_fieldName: Notification.PlayReminder.title
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Gurons miss you!
+    - "\xA1\xA1Los gurons te extra\xF1an!!"
+    - "Os gurons tem saudades de voc\xEA!"
+    - I Gurons sentono la tua mancanza!
+    - 
+  - m_fieldName: Notification.PlayReminder.content
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - The Gurons need your help! Touch here to help them..
+    - Los gurons necesitan tu ayuda. Toca para ayudarlos
+    - Os gurons precisam da sua ajuda. Toca para ajuda-los
+    - I Gurons hanno bisogno del tuo aiuto. Toca per aiutarli
+    - 
+  - m_fieldName: Notification.Refill.title
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Recharge of lives complete !!
+    - "\xA1\xA1Recarga de vidas completa!!"
+    - Recarrega de vidas completa
+    - Ricarica di vite piena!
+    - 
+  - m_fieldName: Notification.Refill.content
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Your lives are full
+    - "Tus vidas est\xE1n al m\xE1ximo"
+    - "Suas vidas est\xE3o ao m\xE1ximo"
+    - Le tue vite sono piene
+    - 
+  - m_fieldName: Notification.Update.title
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - New update available
+    - "Nueva actualizaci\xF3n disponible"
+    - "Nova atualiza\xE7\xE3o dispon\xEDvel"
+    - Nuova aggiornamento disponibile
+    - 
+  - m_fieldName: Notification.Update.content
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - There is a new version of The gurons to download
+    - Hay una nueva version de The gurons para descargar
+    - "H\xE1 uma nova vers\xE3o de the gurons para descarregar!!"
+    - C'e una nuova versione di The Gurons per scaricare
+    - 
+  - m_fieldName: Notification.Halloween.title
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Halloween event!
+    - "\xA1\xA1EVENTO DE HALLOWEEN!!"
+    - "\xA1\xA1EVENTO DE HALLOWEEN!!"
+    - Evento di Halloween!
+    - 
+  - m_fieldName: Notification.Halloween.content
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Play the Halloween event and meet new characters
+    - Juega el evento de Halloween y conoce nuevos personajes
+    - "Joge o evento de Halloween e conhe\xE7a novos personagens"
+    - Gioca al evento di Halloween per conoscere i nuovi personaggi
+    - 
+  - m_fieldName: Notification.Christmas.title
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Merry Christmas
+    - "\xA1\xA1FELIZ NAVIDAD!!"
+    - FELIZ NATAL!!
+    - Buon Natale!
+    - 
+  - m_fieldName: Notification.Christmas.content
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Today is Christmas and the gurons have a gift for you
+    - Hoy es navidad y los gurons tienen un regalo para ti
+    - "Hoje \xE9 natal e os gurons tem um presente para voc\xEA"
+    - "Oggi \xE8 natale e i Gurons hanno un regalo per te"
+    - 
+  - m_fieldName: Notification.Birthday.title
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Happy birthday!
+    - "\xA1\xA1FELIZ CUMPLEA\xD1OS!!"
+    - FELIZ ANIVERSARIO!!
+    - Tanti Auguri!
+    - 
+  - m_fieldName: Notification.Birthday.content
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Today is your birthday and the gurons have a gift for you
+    - "Hoy es tu cumplea\xF1os y los gurons quieren darte un regalo"
+    - "Hoje \xE9 seu aniversario e os gurons querem te dar um presente"
+    - "Oggi \xE8 il tuo compleanno e i Gurons vogliono darti un regalo"
+    - 
+  - m_fieldName: Credits.Title
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Credits
+    - "Cr\xE9ditos"
+    - "Cr\xE9ditos"
+    - Titoli di coda
+    - 
+  - m_fieldName: Credits.Developer
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Developed by
+    - Desarrollado por
+    - Desenvolvido por
+    - Sviluppato per
+    - 
+  - m_fieldName: Credits.Programmer
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Programming
+    - "Programaci\xF3n"
+    - "Programa\xE7\xE3o"
+    - Programmazione
+    - 
+  - m_fieldName: Credits.Musician
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Music and Foley
+    - "M\xFAsica y Foley"
+    - "M\xFAsica e Foley"
+    - Musica e Foley
+    - 
+  - m_fieldName: Credits.Designer
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Graphic design
+    - "Dise\xF1o Gr\xE1fico"
+    - "Desenho Gr\xE1fico"
+    - Grafica
+    - 
+  - m_fieldName: Credits.Localization
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Localization
+    - "Localizaci\xF3n"
+    - "Localiza\xE7\xE3o"
+    - Localizazzione
+    - 
+  - m_fieldName: Credits.Rights
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - All rights reserved to Bermost SPA
+    - Todos los derechos reservados a Bermost SPA
+    - Todos o direitos reservados a Bermost SPA
+    - Tutti I diritti riservati a Bermost SPA
+    - 
+  - m_fieldName: Localization.English
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - English
+    - "Ingl\xE9s"
+    - "Ingl\xEAs"
+    - Inglese
+    - 
+  - m_fieldName: Localization.Spanish
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Spanish
+    - "Espa\xF1ol"
+    - Espanhol
+    - Spagnolo
+    - 
+  - m_fieldName: Localization.French
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - French
+    - Frances
+    - "Franc\xEAs"
+    - Francese
+    - 
+  - m_fieldName: Localization.Italian
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Italian
+    - Italiano
+    - Italiano
+    - Italiano
+    - 
+  - m_fieldName: Localization.German
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - German
+    - "Alem\xE1n"
+    - "Alem\xE3o"
+    - Tedesco
+    - 
+  - m_fieldName: Localization.Portuguese
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Portuguese
+    - "Portugu\xE9s"
+    - "Portugu\xEAs"
+    - Portoghese
+    - 
+  - m_fieldName: Bermost.Title.Login
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Log in
+    - "Iniciar Sesi\xF3n"
+    - "Iniciar Sess\xE3o"
+    - Accedere
+    - 
+  - m_fieldName: Bermost.User
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - User
+    - Usuario
+    - "Usu\xE1rio"
+    - Utente
+    - 
+  - m_fieldName: Bermost.Pass
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Password
+    - "Contrase\xF1a"
+    - Senha
+    - Password
+    - 
+  - m_fieldName: Bermost.Forgot
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - I forgot my password
+    - "Olvid\xE9 mi contrase\xF1a"
+    - "Esquec\xED minha senha"
+    - Ho dimenticato il mio password
+    - 
+  - m_fieldName: Bermost.Policy
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Privacy politics
+    - "Pol\xEDtica de Privacidad"
+    - "Pol\xEDtia de Privacidade"
+    - Politica sulla privacy
+    - 
+  - m_fieldName: Bermost.Button.Signin
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Log in
+    - "Iniciar Sesi\xF3n"
+    - "Iniciar sess\xE3o"
+    - Accedere
+    - 
+  - m_fieldName: Bermost.Button.Signup
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Create an account
+    - Crear Cuenta
+    - Criar Conta
+    - Creare un account
+    - 
+  - m_fieldName: Bermost.Title.Signup
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Registry
+    - Registro
+    - Registro
+    - Registrarsi
+    - 
+  - m_fieldName: Bermost.Name
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Name
+    - Nombre
+    - Nome
+    - Nome
+    - 
+  - m_fieldName: Bermost.Birth
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Date of birth
+    - Fecha de Nacimiento
+    - Data de Nacimento
+    - Data di nascita
+    - 
+  - m_fieldName: Bermost.Email
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Email
+    - Email
+    - E-mail
+    - Email
+    - 
+  - m_fieldName: Bermost.Terms
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - I accept the terms and conditions
+    - "Acepto los t\xE9rminos y condiciones"
+    - "Aceito o termos e condi\xE7oes"
+    - Accetto i termini e le condizioni
+    - 
+  - m_fieldName: Bermost.Error.WrongUser
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Incorrect user or password
+    - "Usuario o contrase\xF1a incorrecta"
+    - "Usu\xE1rio ou senha incorreta"
+    - Utente o password sbagliata
+    - 
+  - m_fieldName: Bermost.Error.NoUser
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Username does not exist
+    - El usuario no existe
+    - "O usu\xE1rio n\xE3o existe"
+    - Il utente non esiste
+    - 
+  - m_fieldName: Bermost.Error.Duplicated
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Username already exists
+    - El usuario ya existe
+    - "O usu\xE1rio j\xE1 existe"
+    - "Il utente esiste gi\xE0"
+    - 
+  - m_fieldName: Achievements.UnlockKublener.Name
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - 'Kublener: the first planet'
+    - 'Kublener: el primer planeta'
+    - 'Kublener: o primeiro planeta'
+    - 'Kublener: il primo pianeta'
+    - 
+  - m_fieldName: Achievements.UnlockKublener.Description
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - "Complete the tutorial for \u201CThe Gurons\u201D"
+    - "Completa el tutorial de \u201CThe Gurons\u201D"
+    - Complete o tutorial para "The Gurons"
+    - Completa il tutorial per "The Gurons"
+    - 
+  - m_fieldName: Achievements.UnlockKzhar.Name
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - 'Kzhar: the planet of fire'
+    - 'Kzhar: el planeta de fuego'
+    - 'Kzhar: o planeta do fogo'
+    - 'Kzhar: il pianeta del fuoco'
+    - 
+  - m_fieldName: Achievements.UnlockKzhar.Description
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Complete the planet Kublener
+    - Completa el planeta Kublener
+    - Complete o planeta Kublener
+    - Completa il pianeta Kublener
+    - 
+  - m_fieldName: Achievements.UnlockFuritsu.Name
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - 'Furitsu: the frozen planet'
+    - 'Furitsu: el planeta helado'
+    - 'Furitsu: o planeta congelado'
+    - 'Furitsu: il pianeta ghiacciato'
+    - 
+  - m_fieldName: Achievements.UnlockFuritsu.Description
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Complete the planet Kzhar
+    - Completa el planeta Kzhar
+    - Complete o planeta Kzhar
+    - Completa il pianeta Kzhar
+    - 
+  - m_fieldName: Achievements.UnlockDrosera.Name
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - 'Drosera: the selvatic planet'
+    - "Drosera: el planeta serlv\xE1tico"
+    - "Drosera: o planeta serlv\xE1tico"
+    - 'Drosera: il pianeta serlvatico'
+    - 
+  - m_fieldName: Achievements.UnlockDrosera.Description
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Complete the Furitsu planet
+    - Completa el planeta Furitsu
+    - Complete o planeta Furitsu
+    - Completa il pianeta Furitsu
+    - 
+  - m_fieldName: Achievements.UnlockQum.Name
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - 'Qum: a planet in the desert'
+    - 'Qum: un planeta en el desierto'
+    - 'Qum: um planeta no deserto'
+    - 'Qum: un pianeta nel deserto'
+    - 
+  - m_fieldName: Achievements.UnlockQum.Description
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Complete the planet Drosera
+    - Completa el planeta Drosera
+    - Complete o planeta Drosera
+    - Completa il pianeta Drosera
+    - 
+  - m_fieldName: Achievements.UnlockKaristal.Name
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - 'Karistal: the last horizon'
+    - "Karistal: el \xFAltimo horizonte"
+    - "Karistal: o \xFAltimo horizonte"
+    - 'Karistal: l''ultimo orizzonte'
+    - 
+  - m_fieldName: Achievements.UnlockKaristal.Description
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Complete planet Qum
+    - Completa el planeta Qum
+    - Planeta completo Qum
+    - Completa il pianeta Qum
+    - 
+  - m_fieldName: Achievements.AllPlanets.Name
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - End of the road
+    - Fin del camino
+    - Fim do caminho
+    - Fine della strada
+    - 
+  - m_fieldName: Achievements.AllPlanets.Description
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - The gurons have reached their last planet
+    - "Los gurons han llegado a su \xFAltimo planeta"
+    - "Os gurons chegaram ao seu \xFAltimo planeta"
+    - I guroni hanno raggiunto il loro ultimo pianeta
+    - 
+  - m_fieldName: Achievements.FirstLose.Name
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Your first life
+    - Tu primera vida
+    - Sua primeira vida
+    - La tua prima vita
+    - 
+  - m_fieldName: Achievements.FirstLose.Description
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Lose a life
+    - Pierde una vida
+    - Perder uma vida
+    - Perdere una vita
+    - 
+  - m_fieldName: Achievements.TenLose.Name
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Life destroyer
+    - Destructor de vidas
+    - Destruidor de vida
+    - Distruttore di vita
+    - 
+  - m_fieldName: Achievements.TenLose.Description
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Lose 10 lives
+    - Pierde 10 vidas
+    - Perder 10 vidas
+    - Perdere 10 vite
+    - 
+  - m_fieldName: Achievements.TwentyLose.Name
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - The first 20 lives
+    - Las primeras 20 vidas
+    - As primeiras 20 vidas
+    - Le prime 20 vite
+    - 
+  - m_fieldName: Achievements.TwentyLose.Description
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Lose 20 lives
+    - Pierde 20 vidas
+    - Perder 20 vidas
+    - Perdi 20 vite
+    - 
+  - m_fieldName: Achievements.HundredLose.Name
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Lives without limits
+    - "Vidas sin l\xEDmites"
+    - Vive sem limites
+    - Vive senza limiti
+    - 
+  - m_fieldName: Achievements.HundredLose.Description
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Lose 100 lives
+    - Pierde 100 vidas
+    - Perca 100 vidas
+    - Perdi 100 vite
+    - 
+  - m_fieldName: Achievements.FirstCenter.Name
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Just luck?
+    - "\xBFSolo suerte?"
+    - Pura sorte?
+    - Solo fortuna?
+    - 
+  - m_fieldName: Achievements.FirstCenter.Description
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Place 1 Guron in the center of another
+    - Coloca 1 Guron en el centro de otro
+    - Coloque 1 Guron no centro de outro
+    - Metti 1 Guron al centro di un altro
+    - 
+  - m_fieldName: Achievements.TenCenter.Name
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Luck does not exist
+    - La suerte no existe
+    - "A sorte n\xE3o existe"
+    - La fortuna non esiste
+    - 
+  - m_fieldName: Achievements.TenCenter.Description
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Place 10 Gurons in the center
+    - Coloca 10 Gurons en el centro
+    - Coloque 10 Gurons no centro
+    - Posiziona 10 Guron al centro
+    - 
+  - m_fieldName: Achievements.HundredCenter.Name
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Ace of fortune
+    - As de la fortuna
+    - "\xC1s da fortuna"
+    - Asso della fortuna
+    - 
+  - m_fieldName: Achievements.HundredCenter.Description
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Place 100 Gurons in the center
+    - Coloca 100 Gurons en el centro
+    - Coloque 100 Gurons no centro
+    - Posiziona 100 Guron al centro
+    - 
+  - m_fieldName: Achievements.FirstSide.Name
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Wow, almost
+    - "\xA1Uuff!, casi"
+    - Uau, quase
+    - Caspita, quasi
+    - 
+  - m_fieldName: Achievements.FirstSide.Description
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Place 1 Guron on the side of another.
+    - Coloca 1 Guron en el lateral de otro.
+    - Coloque 1 Guron ao lado de outro.
+    - Posiziona 1 Guron sul lato di un altro.
+    - 
+  - m_fieldName: Achievements.FiveSide.Name
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - The intention is what counts
+    - "La intenci\xF3n es lo que cuenta"
+    - "A inten\xE7\xE3o \xE9 o que conta"
+    - "L'intenzione \xE8 ci\xF2 che conta"
+    - 
+  - m_fieldName: Achievements.FiveSide.Description
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Place 5 Gurons on the side
+    - Coloca 5 Gurons en el lateral
+    - Coloque 5 Gurons ao lado
+    - Metti 5 guroni sul lato
+    - 
+  - m_fieldName: Achievements.FiftySide.Name
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - 50 and next
+    - 50 y al lado
+    - "50 e pr\xF3ximo"
+    - 50 e successivi
+    - 
+  - m_fieldName: Achievements.FiftySide.Description
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Place 50 Gurons on the side
+    - Coloca 50 Gurons en el lateral
+    - Coloque 50 Gurons ao lado
+    - Metti 50 guroni sul lato
+    - 
+  - m_fieldName: Achievements.FirstPlace.Name
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - The first is not difficult
+    - El primero no es dificil
+    - "O primeiro n\xE3o \xE9 dif\xEDcil"
+    - "Il primo non \xE8 difficile"
+    - 
+  - m_fieldName: Achievements.FirstPlace.Description
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Place your first Guron
+    - Coloca tu primer Guron
+    - Coloque seu primeiro Guron
+    - Posiziona il tuo primo Guron
+    - 
+  - m_fieldName: Achievements.TenPlace.Name
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Height is not what matters
+    - La altura no es lo que importa
+    - "Altura n\xE3o \xE9 o que importa"
+    - "L'altezza non \xE8 ci\xF2 che conta"
+    - 
+  - m_fieldName: Achievements.TenPlace.Description
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Place 10 Gurons
+    - Coloca 10 Gurons
+    - Coloque 10 Gurons
+    - Posiziona 10 guroni
+    - 
+  - m_fieldName: Achievements.FiftyPlace.Name
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Gureh's Shadows
+    - Las sombras de Gureh
+    - Sombras de Gureh
+    - Gureh's Shadows
+    - 
+  - m_fieldName: Achievements.FiftyPlace.Description
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Place 50 Gurons
+    - Coloca 50 Gurons
+    - Coloque 50 Gurons
+    - Posiziona 50 guroni
+    - 
+  - m_fieldName: Achievements.HundredPlace.Name
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Gureh 100 posts
+    - Gureh 100 puestos
+    - "Gureh 100 publica\xE7\xF5es"
+    - Gureh 100 messaggi
+    - 
+  - m_fieldName: Achievements.HundredPlace.Description
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Place 100 Gurons
+    - Coloca 100 Gurons
+    - Coloque 100 Gurons
+    - Posiziona 100 guron
+    - 
+  - m_fieldName: Achievements.ThousandPlace.Name
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - To infinity and beyond
+    - "Al infinito y m\xE1s all\xE1"
+    - "Ao infinito e al\xE9m"
+    - Verso l'infinito e oltre
+    - 
+  - m_fieldName: Achievements.ThousandPlace.Description
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Place 1000 Gurons
+    - Coloca 1000 Gurons
+    - Coloque 1000 Gurons
+    - Posiziona 1000 Guron
+    - 
+  - m_fieldName: Achievements.FirstFail.Name
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Zero precision
+    - "Nula precisi\xF3n"
+    - "Precis\xE3o zero"
+    - Precisione zero
+    - 
+  - m_fieldName: Achievements.FirstFail.Description
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Failure to place a Guron
+    - Falla en colocar un Guron
+    - Falha em colocar um Guron
+    - Impossibile posizionare un Guron
+    - 
+  - m_fieldName: Achievements.TwentyFail.Name
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - This time without fail
+    - Esta vez sin fallar
+    - Desta vez sem falhar
+    - Questa volta a colpo sicuro
+    - 
+  - m_fieldName: Achievements.TwentyFail.Description
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Fail 20 times
+    - Falla 20 veces
+    - Falhar 20 vezes
+    - Fallire 20 volte
+    - 
+  - m_fieldName: Achievements.FourtyFail.Name
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - And it keeps failing
+    - Y sigue fallando
+    - E continua falhando
+    - E continua a fallire
+    - 
+  - m_fieldName: Achievements.FourtyFail.Description
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Fail 40 times
+    - Falla 40 veces
+    - Falhar 40 vezes
+    - Fallire 40 volte
+    - 
+  - m_fieldName: Achievements.HundredFail.Name
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - If it's not that bad 100 times
+    - Si no es tan malo 100 veces
+    - "Se n\xE3o \xE9 t\xE3o ruim 100 vezes"
+    - "Se non \xE8 cos\xEC male 100 volte"
+    - 
+  - m_fieldName: Achievements.HundredFail.Description
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Fail 100 times
+    - Falla 100 veces
+    - Falhar 100 vezes
+    - Fallire 100 volte
+    - 
+  - m_fieldName: Achievements.ThousandFail.Name
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Limitless
+    - "Sin l\xEDmites"
+    - Sem limites
+    - Senza limiti
+    - 
+  - m_fieldName: Achievements.ThousandFail.Description
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Fail 1000 times
+    - Falla 1000 veces
+    - Falhar 1000 vezes
+    - Fallire 1000 volte
+    - 
+  - m_fieldName: Achievements.Timer.Name
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - The time is gold
+    - El tiempo es oro
+    - "O tempo \xE9 ouro"
+    - "Il tempo \xE8 oro"
+    - 
+  - m_fieldName: Achievements.Timer.Description
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - Play more than 10 hours
+    - "Juega m\xE1s de 10 horas"
+    - Jogue mais de 10 horas
+    - "Gioca pi\xF9 di 10 ore"
+    - 
+  - m_fieldName: Achievements.FirstTime.Name
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - First time
+    - Primera Vez
+    - Primeira vez
+    - Prima volta
+    - 
+  - m_fieldName: Achievements.FirstTime.Description
+    m_keys: 0100000002000000030000000400000000000000
+    m_values:
+    - The first time is the most important
+    - "La primera vez es la m\xE1s importante"
+    - "A primeira vez \xE9 a mais importante"
+    - "La prima volta \xE8 la pi\xF9 importante"
+    - 
+  m_nextLanguageID: 5
+  m_nextFieldID: 216

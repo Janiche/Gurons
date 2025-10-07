@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Cube
+  - Floor
+  - Deprecated
+  - Stack
+  - PrizeSlot
+  - Wall
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - LoadingCanvas
+  - Collision
+  - Ignore
+  - ConnectionManager
+  - Particles
+  - Tutorial
+  - HackCanvas
+  - ScratchableZone
+  - Planet
+  - Walls
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 1045316495
+    locked: 0
+  - name: Items
+    uniqueID: 3516000245
+    locked: 0
+  - name: Character
+    uniqueID: 4163375741
+    locked: 0
+  - name: Clouds
+    uniqueID: 1372554319
+    locked: 0
+  - name: UI
+    uniqueID: 2668530699
+    locked: 0

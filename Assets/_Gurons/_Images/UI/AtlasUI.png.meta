@@ -1,0 +1,1430 @@
+fileFormatVersion: 2
+guid: 04157e485d6854773ae1bc233fce482d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: AtlasUI_0
+  - first:
+      213: 21300002
+    second: AtlasUI_1
+  - first:
+      213: 21300004
+    second: AtlasUI_2
+  - first:
+      213: 21300006
+    second: AtlasUI_3
+  - first:
+      213: 21300008
+    second: AtlasUI_4
+  - first:
+      213: 21300010
+    second: AtlasUI_5
+  - first:
+      213: 21300012
+    second: AtlasUI_6
+  - first:
+      213: 21300014
+    second: AtlasUI_7
+  - first:
+      213: 21300016
+    second: AtlasUI_8
+  - first:
+      213: 21300018
+    second: AtlasUI_9
+  - first:
+      213: 21300020
+    second: AtlasUI_10
+  - first:
+      213: 21300022
+    second: AtlasUI_11
+  - first:
+      213: 21300024
+    second: AtlasUI_12
+  - first:
+      213: 21300026
+    second: AtlasUI_13
+  - first:
+      213: 21300028
+    second: AtlasUI_14
+  - first:
+      213: 21300030
+    second: AtlasUI_15
+  - first:
+      213: 21300032
+    second: AtlasUI_16
+  - first:
+      213: 21300034
+    second: AtlasUI_17
+  - first:
+      213: 21300036
+    second: AtlasUI_18
+  - first:
+      213: 21300038
+    second: AtlasUI_19
+  - first:
+      213: 21300040
+    second: AtlasUI_20
+  - first:
+      213: 21300042
+    second: AtlasUI_21
+  - first:
+      213: 21300044
+    second: AtlasUI_22
+  - first:
+      213: 21300046
+    second: AtlasUI_23
+  - first:
+      213: 21300048
+    second: AtlasUI_24
+  - first:
+      213: 21300050
+    second: AtlasUI_25
+  - first:
+      213: 21300052
+    second: AtlasUI_26
+  - first:
+      213: 21300054
+    second: AtlasUI_27
+  - first:
+      213: 21300056
+    second: AtlasUI_28
+  - first:
+      213: 21300058
+    second: AtlasUI_29
+  - first:
+      213: 21300060
+    second: AtlasUI_30
+  - first:
+      213: 21300062
+    second: AtlasUI_31
+  - first:
+      213: 21300064
+    second: AtlasUI_32
+  - first:
+      213: 21300066
+    second: AtlasUI_33
+  - first:
+      213: 21300068
+    second: AtlasUI_34
+  - first:
+      213: 21300070
+    second: AtlasUI_35
+  - first:
+      213: 21300072
+    second: AtlasUI_36
+  - first:
+      213: 21300074
+    second: AtlasUI_37
+  - first:
+      213: 21300076
+    second: AtlasUI_38
+  - first:
+      213: 21300078
+    second: AtlasUI_39
+  - first:
+      213: 21300080
+    second: AtlasUI_40
+  - first:
+      213: 2480490586065247344
+    second: AtlasUI_41
+  - first:
+      213: -9219797207272833297
+    second: AtlasUI_42
+  - first:
+      213: -2595545769365308491
+    second: AtlasUI_43
+  - first:
+      213: -6332789879728228320
+    second: AtlasUI_44
+  - first:
+      213: 7044297533112177480
+    second: AtlasUI_45
+  - first:
+      213: -6959885592803844902
+    second: AtlasUI_46
+  - first:
+      213: -1347168557833377746
+    second: AtlasUI_47
+  - first:
+      213: -5912320003209870820
+    second: AtlasUI_48
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AtlasUI_0
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 3893
+        width: 374
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 44, y: 40, z: 37, w: 28}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37c1be5155dba4e84b937efdc07c1b71
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUI_1
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 3512
+        width: 456
+        height: 521
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f108791440717412c9e285d5cf269103
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUI_2
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 3512
+        width: 456
+        height: 521
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b16234eb88cb8486690fa5878f463815
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUI_3
+      rect:
+        serializedVersion: 2
+        x: 1552
+        y: 3512
+        width: 456
+        height: 521
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 70, y: 84, z: 58, w: 44}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8b79d6ac7ce84f37850a4e892a16a91
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUI_4
+      rect:
+        serializedVersion: 2
+        x: 2103
+        y: 3701
+        width: 281
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 42, y: 32, z: 42, w: 42}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 942b1bbb25c1943cfbeed368e18810f8
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUI_5
+      rect:
+        serializedVersion: 2
+        x: 2459
+        y: 3379
+        width: 1130
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 144, y: 124, z: 138, w: 84}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f9503f792d6c4eb78d2d06642b9751f
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUI_6
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 3732
+        width: 374
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d53ed5a0cc744466198f04bd7446031e
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUI_7
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 3511
+        width: 396
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49e41e4deae14467fae36be8e1b185ce
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUI_8
+      rect:
+        serializedVersion: 2
+        x: 2087
+        y: 3443
+        width: 158
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 783f8b1126d7a41aca90b72056cef7cd
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUI_9
+      rect:
+        serializedVersion: 2
+        x: 2335
+        y: 3483
+        width: 92
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3de60517dde504bd5bcbcb3e48f0769a
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUI_10
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 3351
+        width: 253
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30b427e8f56e649cc90d75e2f6382960
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUI_11
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 3397
+        width: 1270
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 60, y: 0, z: 60, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef7168d5179f94bd1bc1fe88fe5d1c34
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUI_12
+      rect:
+        serializedVersion: 2
+        x: 1808
+        y: 3288
+        width: 129
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8fad91d33fb2456f8a20f5f7403f443
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUI_13
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 3175
+        width: 312
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b77754a8320d4a5ba3556058b90ec4b
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUI_14
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 3199
+        width: 142
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e470d44bc10640f4b886361f15ce3a0
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUI_15
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 3159
+        width: 375
+        height: 197
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0e3a8e1b09644542846428763e546cd
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUI_16
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 3159
+        width: 377
+        height: 197
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3482c7b159624f288bb375f914dfe48
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUI_17
+      rect:
+        serializedVersion: 2
+        x: 2083
+        y: 3215
+        width: 160
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 644d6489577a54ee3838a5e254dd01d7
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUI_18
+      rect:
+        serializedVersion: 2
+        x: 2273
+        y: 3205
+        width: 166
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a5b98b5c1c9040df821559293b96477
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUI_19
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 3029
+        width: 312
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df9193e9525084b0e91833b21935e289
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUI_20
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 3021
+        width: 101
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51b0a3342abfb4ca0b465ad98888f640
+      internalID: 21300040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUI_21
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 2977
+        width: 114
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c5bfc9a16566408bb5431b8de3c4231
+      internalID: 21300042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUI_22
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 2896
+        width: 527
+        height: 169
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54374f74960d9435c9a3473a170c5aaa
+      internalID: 21300044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUI_23
+      rect:
+        serializedVersion: 2
+        x: 1629
+        y: 2984
+        width: 188
+        height: 197
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 066b0bca9062548528915f7be17c99f3
+      internalID: 21300046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUI_24
+      rect:
+        serializedVersion: 2
+        x: 1933
+        y: 2479
+        width: 1094
+        height: 722
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 110, y: 110, z: 110, w: 110}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64f34d0217806412f95b317c2862a037
+      internalID: 21300048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUI_25
+      rect:
+        serializedVersion: 2
+        x: 3097
+        y: 2093
+        width: 944
+        height: 1110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 200, y: 140, z: 220, w: 140}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2072889f96461480fab85815ec71d397
+      internalID: 21300050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUI_26
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 2813
+        width: 228
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 504b1a208be304db1885082d330a8790
+      internalID: 21300052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUI_27
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 2599
+        width: 734
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbbfc092dd5e74656bbc1b173e89588c
+      internalID: 21300054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUI_28
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 2733
+        width: 188
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 933e6ac0ff78e4e29ac1c6a5adc63103
+      internalID: 21300056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUI_29
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 2648
+        width: 718
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3110805fb7d8e49fdaa376d0996bd0f0
+      internalID: 21300058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUI_30
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 2408
+        width: 703
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52a7450d8507e40a294ce69dfd6ea686
+      internalID: 21300060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUI_31
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 2417
+        width: 396
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8a9be9384c7541c196f8b4575f234e6
+      internalID: 21300062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUI_32
+      rect:
+        serializedVersion: 2
+        x: 1741
+        y: 2523
+        width: 156
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f20c444e156f3487ab3596eb584630eb
+      internalID: 21300064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUI_33
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 1624
+        width: 705
+        height: 705
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 140, y: 100, z: 100, w: 80}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfe7bdae716714fe9b580b66378c80b2
+      internalID: 21300066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUI_34
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 1627
+        width: 1045
+        height: 726
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 130, y: 144, z: 130, w: 160}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d8f087a68cd442118abfd6753bb07fc
+      internalID: 21300068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUI_35
+      rect:
+        serializedVersion: 2
+        x: 1901
+        y: 1631
+        width: 1158
+        height: 753
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 220, y: 80, z: 220, w: 200}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6998d5d8b25f249bcbbb4de27ce6aa30
+      internalID: 21300070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUI_36
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 832
+        width: 1182
+        height: 736
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 220, y: 110, z: 220, w: 110}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e71fd13e502144a2683b5469c32b7ba5
+      internalID: 21300072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUI_37
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 144
+        width: 1376
+        height: 624
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 210, y: 210, z: 240, w: 100}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f394aa5ea951448ecb4530b7af4e100d
+      internalID: 21300074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUI_38
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 64
+        width: 1034
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 60, y: 0, z: 60, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 076746af902914d419ceca7efa89d546
+      internalID: 21300076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUI_39
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 2861
+        width: 126
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d27f9a60c1fa44165a72dc7bce710bdd
+      internalID: 21300078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUI_40
+      rect:
+        serializedVersion: 2
+        x: 1265
+        y: 2420
+        width: 396
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44c060d8072294785ad5467445c6f774
+      internalID: 21300080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUI_41
+      rect:
+        serializedVersion: 2
+        x: 3681
+        y: 3428
+        width: 169
+        height: 527
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 407a4ce91bf3e406c8700369b400b91a
+      internalID: 2480490586065247344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUI_42
+      rect:
+        serializedVersion: 2
+        x: 3099
+        y: 1859
+        width: 377
+        height: 197
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42c3cd7048cb74ec2a4ff825b4f72d47
+      internalID: -9219797207272833297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUI_43
+      rect:
+        serializedVersion: 2
+        x: 3566
+        y: 1859
+        width: 377
+        height: 197
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c31d232807a5e4f75b24ec699204bf99
+      internalID: -2595545769365308491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUI_44
+      rect:
+        serializedVersion: 2
+        x: 2699
+        y: 3231
+        width: 312
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceb7f1e70139e4d7ab0d85a7d86ca2eb
+      internalID: -6332789879728228320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUI_45
+      rect:
+        serializedVersion: 2
+        x: 2493
+        y: 3205
+        width: 166
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c801a232915884f47b0617c7373da91c
+      internalID: 7044297533112177480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUI_46
+      rect:
+        serializedVersion: 2
+        x: 3106
+        y: 3244
+        width: 116
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af80cbe1b7b904d3d8f686beee9d39f7
+      internalID: -6959885592803844902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUI_47
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 3244
+        width: 116
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e17b6e10706f54b8e9ef1e62a1dc10f5
+      internalID: -1347168557833377746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUI_48
+      rect:
+        serializedVersion: 2
+        x: 3504
+        y: 3205
+        width: 166
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c124d3a284833fda0800000000000000
+      internalID: -5912320003209870820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: da236ce3c92f645db8d0697fe4ec0f85
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      AtlasUI_0: 21300000
+      AtlasUI_1: 21300002
+      AtlasUI_10: 21300020
+      AtlasUI_11: 21300022
+      AtlasUI_12: 21300024
+      AtlasUI_13: 21300026
+      AtlasUI_14: 21300028
+      AtlasUI_15: 21300030
+      AtlasUI_16: 21300032
+      AtlasUI_17: 21300034
+      AtlasUI_18: 21300036
+      AtlasUI_19: 21300038
+      AtlasUI_2: 21300004
+      AtlasUI_20: 21300040
+      AtlasUI_21: 21300042
+      AtlasUI_22: 21300044
+      AtlasUI_23: 21300046
+      AtlasUI_24: 21300048
+      AtlasUI_25: 21300050
+      AtlasUI_26: 21300052
+      AtlasUI_27: 21300054
+      AtlasUI_28: 21300056
+      AtlasUI_29: 21300058
+      AtlasUI_3: 21300006
+      AtlasUI_30: 21300060
+      AtlasUI_31: 21300062
+      AtlasUI_32: 21300064
+      AtlasUI_33: 21300066
+      AtlasUI_34: 21300068
+      AtlasUI_35: 21300070
+      AtlasUI_36: 21300072
+      AtlasUI_37: 21300074
+      AtlasUI_38: 21300076
+      AtlasUI_39: 21300078
+      AtlasUI_4: 21300008
+      AtlasUI_40: 21300080
+      AtlasUI_41: 2480490586065247344
+      AtlasUI_42: -9219797207272833297
+      AtlasUI_43: -2595545769365308491
+      AtlasUI_44: -6332789879728228320
+      AtlasUI_45: 7044297533112177480
+      AtlasUI_46: -6959885592803844902
+      AtlasUI_47: -1347168557833377746
+      AtlasUI_48: -5912320003209870820
+      AtlasUI_5: 21300010
+      AtlasUI_6: 21300012
+      AtlasUI_7: 21300014
+      AtlasUI_8: 21300016
+      AtlasUI_9: 21300018
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

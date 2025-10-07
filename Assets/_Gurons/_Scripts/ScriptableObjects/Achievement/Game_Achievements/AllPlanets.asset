@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ad18722be39e464d96934339e93d1c3, type: 3}
+  m_Name: AllPlanets
+  m_EditorClassIdentifier: 
+  id: 25
+  _icon: {fileID: 21300052, guid: 04157e485d6854773ae1bc233fce482d, type: 3}
+  _name: AllPlanets
+  _reward: {fileID: 11400000, guid: c275619b05c6d475191e26d8a86de2a8, type: 2}
+  _condition: 1

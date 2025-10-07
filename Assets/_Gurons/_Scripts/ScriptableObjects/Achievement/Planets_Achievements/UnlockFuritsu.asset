@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cab07ca4c253b4c3391dfd3273a7a884, type: 3}
+  m_Name: UnlockFuritsu
+  m_EditorClassIdentifier: 
+  id: 21
+  _icon: {fileID: 1337643087485978474, guid: 9f82908a059044cec87882d8a8a19004, type: 3}
+  _name: UnlockFuritsu
+  _reward: {fileID: 11400000, guid: f33b1dbac1bc748c3bd1d7bb691abefe, type: 2}
+  _planet: 2

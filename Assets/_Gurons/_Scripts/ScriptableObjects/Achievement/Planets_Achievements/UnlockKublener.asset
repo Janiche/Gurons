@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cab07ca4c253b4c3391dfd3273a7a884, type: 3}
+  m_Name: UnlockKublener
+  m_EditorClassIdentifier: 
+  id: 19
+  _icon: {fileID: 6578029921566799198, guid: 9f82908a059044cec87882d8a8a19004, type: 3}
+  _name: UnlockKublener
+  _reward: {fileID: 11400000, guid: ceda51043aa5e465e89fbd0777de536c, type: 2}
+  _planet: 0

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Geradina
+  m_Controller: {fileID: 9100000, guid: a252332ac860b4d9abb9ef33e86ce377, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: cbfce829a843248ee92b2a847e0375ce, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 5ee8ef666003b4ee2bd59b1856a31fe7, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: f9bdd1b61fed84a289ec3b7672cca144, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: f6c85b2bce7b04cae9247bf0cc617998, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 05bc0ee4007724e468f27393772e14d1, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 9f767025ee17f4c4cb035498e5a7ee19, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 73fbc95c4fece4d1dabe9d437483491d, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: d1e3d5701c67f4302befe90b300be602, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 2931e1ab8c9f3455ba9cbe30acac06a4, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 1546feedff46d42a885a909fdfcd32c7, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 021993a83806b4c49adeba0c5852ac1b, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 96e915b2d6da945fbb8145127ff597c9, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: e80a522b7bd2a4701a2ff315a1ac9436, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: b79bba0b7962e4ab19ed2b2857a8f05e, type: 2}

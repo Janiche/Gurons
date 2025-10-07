@@ -1,0 +1,27 @@
+{
+  "diamonds": 12,
+  "lifes": 1,
+  "coins": 267,
+  "extraChance": 0,
+  "doubleScore": 9,
+  "oneAccelerator": 0,
+  "fiveAccelerator": 0,
+  "bought": {
+    "diamonds": 0,
+    "lifes": 0,
+    "coins": 0,
+    "extraChance": 0,
+    "doubleScore": 0,
+    "oneAccelerator": 0,
+    "fiveAccelerator": 0
+  },
+  "spent": {
+    "diamonds": 0,
+    "lifes": 9,
+    "coins": 0,
+    "extraChance": 0,
+    "doubleScore": 0,
+    "oneAccelerator": 0,
+    "fiveAccelerator": 0
+  }
+}

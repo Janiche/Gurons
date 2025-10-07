@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc9b591b28f7f490ebb7a78d9714f097, type: 3}
+  m_Name: TenCenter
+  m_EditorClassIdentifier: 
+  id: 5
+  _icon: {fileID: 21300000, guid: 8c077f80553ea48f2bef8641ca5a118f, type: 3}
+  _name: TenCenter
+  _reward: {fileID: 11400000, guid: 1274d61559639408688ba152f6258808, type: 2}
+  _gurons: 10
+  _condition: 2
