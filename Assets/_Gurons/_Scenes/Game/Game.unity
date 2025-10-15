@@ -1359,6 +1359,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LoadingCanvas
       objectReference: {fileID: 0}
+    - target: {fileID: 181526, guid: e8cd6df0aa4f04aa99ad794b5f7fbb30, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 495156, guid: e8cd6df0aa4f04aa99ad794b5f7fbb30, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -1408,12 +1412,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e8cd6df0aa4f04aa99ad794b5f7fbb30, type: 3}
---- !u!1 &493487608 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 181526, guid: e8cd6df0aa4f04aa99ad794b5f7fbb30,
-    type: 3}
-  m_PrefabInstance: {fileID: 493487607}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &538636621
 GameObject:
   m_ObjectHideFlags: 0
@@ -2894,6 +2892,7 @@ GameObject:
   - component: {fileID: 1206683479}
   - component: {fileID: 1206683481}
   - component: {fileID: 1206683482}
+  - component: {fileID: 1206683483}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -2914,7 +2913,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _uiController: {fileID: 846161091}
-  _buttons: {fileID: 1206683482}
   _objectPooling: {fileID: 850193930}
   _feedbackController: {fileID: 968372276}
   _rope: {fileID: 1465209966}
@@ -3141,8 +3139,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31f2133e6fd41466fb365c9fa99f1446, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  loadingCanvas: {fileID: 493487608}
-  eventSystem: {fileID: 1622992779}
+--- !u!225 &1206683483
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1206683478}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1001 &1272839295
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -10,13 +10,6 @@ namespace Bermost
     {
         public static string _nextScene = string.Empty;
 
-        //public static void LoadSyncScene(string scene = "LoadingScene")
-        //{
-        //    Resources.UnloadUnusedAssets();
-        //    //_nextScene = scene;
-        //    SceneManager.LoadScene(scene);
-        //}
-
         /// <summary>
         /// Carga de manera sincrona la pantalla de carga, para luego cargar asincrona la escena destino
         /// </summary>
@@ -43,11 +36,8 @@ namespace Bermost
             AsyncOperation async = SceneManager.LoadSceneAsync(scene);
             async.allowSceneActivation = false;
 
-            //SaveSystem.Save();
             while (!async.isDone)
             {
-                //SaveSystem.Save();
-                //Resources.UnloadUnusedAssets();
 
                 yield return new WaitForSeconds(wait);
                 Resources.UnloadUnusedAssets();
@@ -71,7 +61,6 @@ namespace Bermost
 
             while (!async.isDone)
             {
-                //SaveSystem.Save();
 
                 yield return new WaitForSeconds(wait);
                 Resources.UnloadUnusedAssets();

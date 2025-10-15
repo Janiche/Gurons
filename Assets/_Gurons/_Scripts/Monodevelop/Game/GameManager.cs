@@ -37,7 +37,7 @@ public class GameManager : MonoBehaviour
 
     [Header("Controllers")]
     [SerializeField] private UIController _uiController;
-    [SerializeField] private Buttons _buttons = null;
+    //[SerializeField] private Buttons _buttons = null;
     [SerializeField] private ObjectPooling _objectPooling = null;
     [SerializeField] private FeedbackController _feedbackController;
     [SerializeField] private Rope _rope;
@@ -503,7 +503,7 @@ public class GameManager : MonoBehaviour
 
             Store.instance.TakeProduct(Constants._Currencies.one_life, 1);
             _game = false;
-            _buttons.LoadSceneButton(Constants._SceneName.Game.ToString());
+            //_buttons.LoadSceneButton(Constants._SceneName.Game.ToString());
         }
 
         //DE LO CONTRARIO ACTIVA PANEL DE NO VIDAS
@@ -534,7 +534,7 @@ public class GameManager : MonoBehaviour
         _EndGlobalVar();
 
         LifeSystemController.Instance._Pause(false);
-        _buttons.LoadSceneButton(Constants._SceneName.MainMenu.ToString());
+        //_buttons.LoadSceneButton(Constants._SceneName.MainMenu.ToString());
         //_buttons.LoadSceneButton("MainMenu");
 
     }
@@ -551,7 +551,7 @@ public class GameManager : MonoBehaviour
         {
             _OnUnpause();
             Store.instance.TakeProduct(Constants._Currencies.one_life, 1);
-            _buttons.LoadSceneButton(Constants._SceneName.Game.ToString());
+            //_buttons.LoadSceneButton(Constants._SceneName.Game.ToString());
         }
         //DE LO CONTRARIO ACTIVA PANEL DE NO VIDAS
         else
@@ -569,7 +569,7 @@ public class GameManager : MonoBehaviour
 
         _game = false;
         _EndGlobalVar();
-        _buttons.LoadSceneButton(Constants._SceneName.Store.ToString());
+        //_buttons.LoadSceneButton(Constants._SceneName.Store.ToString());
     }
 
     /// <summary>
@@ -607,7 +607,7 @@ public class GameManager : MonoBehaviour
         LifeSystemController.Instance._Pause(false);
 
         _game = false;
-        _buttons.LoadSceneButton(Constants._SceneName.Planets.ToString());
+        //_buttons.LoadSceneButton(Constants._SceneName.Planets.ToString());
 
         //if (GlobalVars.currentPlanet < GlobalVars.maxPlanets)
         //{
@@ -634,7 +634,7 @@ public class GameManager : MonoBehaviour
         {
             Store.instance.TakeProduct(Constants._Currencies.one_life, 1);
             _OnUnpause();
-            _buttons.LoadSceneButton(Constants._SceneName.Game.ToString());
+            //_buttons.LoadSceneButton(Constants._SceneName.Game.ToString());
         }
 
         //SaveSystem.SaveData();
@@ -650,7 +650,7 @@ public class GameManager : MonoBehaviour
 
         //SaveSystem.SaveData();
         _EndGlobalVar();
-        _buttons.LoadSceneButton(Constants._SceneName.MainMenu.ToString());
+        //_buttons.LoadSceneButton(Constants._SceneName.MainMenu.ToString());
     }
 
     /// <summary>
@@ -688,7 +688,7 @@ public class GameManager : MonoBehaviour
 
     void _OnRetryTutorial()
     {
-        _buttons.LoadSceneButton(Constants._SceneName.Game.ToString());
+        //_buttons.LoadSceneButton(Constants._SceneName.Game.ToString());
     }
 
     void _OnSkipTutorial()
@@ -697,7 +697,7 @@ public class GameManager : MonoBehaviour
         GlobalVars.saveData.gameData.planetToUnlock = 0;
 
         _game = false;
-        _buttons.LoadSceneButton(Constants._SceneName.Planets.ToString());
+        //_buttons.LoadSceneButton(Constants._SceneName.Planets.ToString());
 
         _EndGlobalVar();
         //SaveSystem.SaveData();

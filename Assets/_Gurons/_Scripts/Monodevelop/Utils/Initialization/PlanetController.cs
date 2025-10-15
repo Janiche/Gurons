@@ -171,7 +171,7 @@ public class PlanetController : MonoBehaviour
             GlobalVars.extraChance = 1;
         }
 
-        GetComponent<Buttons>().LoadSceneButton(Constants._SceneName.Game.ToString());
+        //GetComponent<Buttons>().LoadSceneButton(Constants._SceneName.Game.ToString());
 
         LifeSystemController.Instance._Pause(true);
 

@@ -186,7 +186,7 @@ PlayerSettings:
   androidMaxAspectRatio: 2.1
   androidMinAspectRatio: 1
   applicationIdentifier:
-    Android: com.Bermost.TheGurons
+    Android: com.JanicheDev.TheGurons
     iPhone: com.Bermost.TheGurons
   buildNumber:
     Standalone: 0

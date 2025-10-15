@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 public class MainMenuButtons : MonoBehaviour
 {
-    [SerializeField] private Buttons btn = null;
+    //[SerializeField] private Buttons btn = null;
 
     [Header("No Life")]
     [Tooltip("Panel de mensaje son vidas")] [SerializeField] private GameObject noLifeMessage = null;
@@ -22,7 +22,7 @@ public class MainMenuButtons : MonoBehaviour
         if (Store.instance.GetBalance(Constants._Currencies.one_life) > 0)
         //if (Store.instance.GetBalance("one_life") > 0)
         {
-            btn.LoadSceneButton(Constants._SceneName.Planets.ToString());
+            //btn.LoadSceneButton(Constants._SceneName.Planets.ToString());
         }
 
         //ACTIVA PANEL DE NO VIDAS

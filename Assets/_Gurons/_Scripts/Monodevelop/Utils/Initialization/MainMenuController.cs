@@ -10,7 +10,6 @@ using PixelCrushers;
 
 public class MainMenuController : MonoBehaviour
 {
-    [SerializeField] private Buttons _buttons = null;
     [SerializeField] private AnimatedPanelController _animatedPanelController;
 
     [SerializeField] private bool _tutorial = false;
@@ -147,7 +146,9 @@ public class MainMenuController : MonoBehaviour
             //CARGA PANTALLA DE PLANETAS
             if (Store.instance.GetBalance(Constants._Currencies.one_life) > 0)
             {
-                _buttons.LoadSceneButton(Constants._SceneName.Planets.ToString());
+                SceneLoader._instance.LoadScene(Constants._SceneName.Planets.ToString());
+
+                //_sceneLoader.LoadSceneButton(Constants._SceneName.Planets.ToString());
             }
 
             //ACTIVA PANEL DE NO VIDAS
@@ -159,7 +160,8 @@ public class MainMenuController : MonoBehaviour
 
         else
         {
-            _buttons.LoadSceneButton(Constants._SceneName.Game.ToString());
+            //_sceneLoader.LoadSceneButton(Constants._SceneName.Game.ToString());
+            SceneLoader._instance.LoadScene(Constants._SceneName.Game.ToString());
         }
     }
 

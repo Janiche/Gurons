@@ -379,7 +379,8 @@ public class Initialize : MonoBehaviour
         if (!_firstRun)
         {
             loadingCanvas.SetActive(true);
-            SceneLoader.LoadAsyncWithLoader(Constants._SceneName.MainMenu.ToString());
+           SceneLoader._instance.LoadScene(Constants._SceneName.MainMenu.ToString());
+            //SceneLoader.LoadAsyncWithLoader(Constants._SceneName.MainMenu.ToString());
         }
         else
         {
@@ -391,7 +392,8 @@ public class Initialize : MonoBehaviour
 
     public void _LoadMainMenu()
     {
-        SceneLoader.LoadAsyncWithLoader(Constants._SceneName.MainMenu.ToString());
+         SceneLoader._instance.LoadScene(Constants._SceneName.MainMenu.ToString());
+        //SceneLoader.LoadAsyncWithLoader(Constants._SceneName.MainMenu.ToString());
     }
     #endregion
 
