@@ -2,7 +2,6 @@
 
 using TMPro;
 using PixelCrushers;
-using Doozy.Engine.UI;
 
 public enum BuyStatus
 {
@@ -27,21 +26,21 @@ public enum FailedReason
 }
 
 
-public class AlertPanel : MonoBehaviour
+public class AlertPanel : UIPanelAnimator
 {
     [Header("Alert Panel Variables")]
     [SerializeField] private TextMeshProUGUI title;
     [SerializeField] private TextMeshProUGUI message;
     [SerializeField] private TextTable _localizedTable;
 
-    [SerializeField] private UIView _view;
+    //[SerializeField] private UIView _view;
 
     public void ShowSuccessAlert(string productId)
     {
         title.text = _localizedTable.GetFieldText("Store.Completed");
         message.text = string.Format(_localizedTable.GetFieldText("Store.Completed.Message"), productId);
 
-        _view.Show();
+        //_view.Show();
     }
 
     public void ShowFailedAlert(FailedReason _reason)
@@ -58,7 +57,7 @@ public class AlertPanel : MonoBehaviour
         title.text = _localizedTable.GetFieldText("Planet.Unlocked.Title");
         message.text = string.Format(_localizedTable.GetFieldText("Planet.Unlocked.Message"), _planetName);
 
-        _view.Show();
+        //_view.Show();
     }
 
 }

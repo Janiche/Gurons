@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 
 using NaughtyAttributes;
-using Doozy.Engine.UI;
 
 using PixelCrushers;
 
@@ -18,7 +17,7 @@ public class AchivementSystem : MonoBehaviour
         {
             if (instance == null)
             {
-                instance = FindObjectOfType<AchivementSystem>();
+                instance = FindFirstObjectByType<AchivementSystem>();
 
                 if (instance == null)
                 {
@@ -38,7 +37,7 @@ public class AchivementSystem : MonoBehaviour
     [SerializeField] private GameObject _canvas;
     [SerializeField] private string popupName = "AchievementPopup";
     [SerializeField] private TextTable _textTable;
-    [SerializeField] private UIPopup _popup;
+    //[SerializeField] private UIPopup _popup; //DOOZY
 
     [Space]
     [SerializeField] private List<AchievementCondition> _achivementsConditions = new List<AchievementCondition>();
@@ -184,7 +183,6 @@ public class AchivementSystem : MonoBehaviour
 
     private void _MostrarPanel()
     {
-        _popup = UIPopupManager.GetPopup(popupName);
 
         string description = string.Empty;
 
@@ -200,9 +198,9 @@ public class AchivementSystem : MonoBehaviour
             description = descKey;
         }
 
-        _popup.Data.SetImagesSprites(_ach._icon);
-        _popup.Data.SetLabelsTexts(description);
-        UIPopupManager.ShowPopup(_popup, _popup.AddToPopupQueue, false);
+        //DOOZY
+        /*_popup.Data.SetImagesSprites(_ach._icon);
+        _popup.Data.SetLabelsTexts(description);*/
     }
 
     public void _UnlockAchivement(int id)

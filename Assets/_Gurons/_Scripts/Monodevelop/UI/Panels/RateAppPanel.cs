@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class RateAppPanel : MonoBehaviour
+public class RateAppPanel : UIPanelAnimator
 {
     [Header("Rate Panel Variables")]
     [SerializeField] private string gplayRate = "market://details?id=";

@@ -1,18 +1,14 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 
-using System;
 using TMPro;
 using PixelCrushers;
-using UnityEngine.Advertisements;
-using System.Threading;
 
 namespace Bermost
 {
 
 
-    public class AdRewardController : MonoBehaviour//, IUnityAdsListener
+    public class AdRewardController : UIPanelAnimator
     {
         [SerializeField] private GameObject _remainingAdBubble;
         [SerializeField] private TextMeshProUGUI _remainingAdText;

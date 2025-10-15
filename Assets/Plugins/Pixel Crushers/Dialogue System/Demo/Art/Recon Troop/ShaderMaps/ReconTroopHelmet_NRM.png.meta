@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 24b0781ff9ea87d49ab29ef9b6202bdd
+guid: e8969d415da708442b0d57d2c09d87cb
 TextureImporter:
   serializedVersion: 2
   mipmaps:
@@ -47,6 +47,6 @@ AssetOrigin:
   serializedVersion: 1
   productId: 11672
   packageName: Dialogue System for Unity
-  packageVersion: 2.2.60
+  packageVersion: 2.2.61
   assetPath: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Art/Recon Troop/ShaderMaps/ReconTroopHelmet_NRM.png
-  uploadId: 797136
+  uploadId: 804490

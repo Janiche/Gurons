@@ -1,12 +1,12 @@
 fileFormatVersion: 2
-guid: 19130f08fc13f854f98660ecc48c4002
+guid: 3135d515fa31e4247ab823c5fbc570d6
 DefaultImporter:
   userData: 
 AssetOrigin:
   serializedVersion: 1
   productId: 11672
   packageName: Dialogue System for Unity
-  packageVersion: 2.2.60
+  packageVersion: 2.2.61
   assetPath: Assets/Plugins/Pixel Crushers/Common/Third Party Support/Compass Navigator
     Pro 2 Support.unitypackage
-  uploadId: 797136
+  uploadId: 804490

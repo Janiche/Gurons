@@ -132,90 +132,9 @@ public class SaveSystem
         //Existe archivo de guardado, carga anterior
         if (File.Exists(savePath))
         {
-            int status = 0;
-            CheckVersion(out status);
-
-            switch (status)
-            {
-                case 0:
-                    UpdateData();
-                    Debug.LogError("Actualizar Version");
-                    break;
-
-                case 1:
-
-                    Debug.LogError("Actual Version");
-                    break;
-
-                case 2:
-                    //TODO: Ofrecer nueva version de juego
-                    Debug.LogError("Nueva Version");
-                    break;
-            }
-            //Debug.LogWarning("LOADed DATA: " + json);
-
             GlobalVars.saveData.playerData.lastLogin = System.DateTime.Now;
             SaveData();
         }
-    }
-
-    /// <summary>
-    /// Analiza la version del save y segun eso opera
-    /// </summary>
-    private static void CheckVersion(out int status)
-    {
-
-        string[] appVersion = Application.version.Split('.');
-
-
-        //TODO: Reemplazar con retorno decode
-        string json = File.ReadAllText(savePath);
-        string decoded = string.Empty;
-
-        if (readDecoded)
-        {
-            decoded = DecodeData(json);
-        }
-
-        else
-        {
-            decoded = json;
-        }
-
-        //GlobalVars.saveData = new SaveData();
-        GlobalVars.saveData = JsonConvert.DeserializeObject<SaveData>(json, new ObscuredValueConverter());
-
-        string tempVersion = GlobalVars.saveData.version;
-
-        string[] savVersion = tempVersion.Split('.');
-
-        for (int i = 0; i < savVersion.Length; i++)
-        {
-            if (i < appVersion.Length)
-            {
-                //Save desactualizado
-                if (int.Parse(savVersion[i]) < int.Parse(appVersion[i]))
-                {
-                    status = 0;
-                    return;
-                }
-
-                //Save actualizado
-                else if (int.Parse(appVersion[i]) == int.Parse(savVersion[i]))
-                {
-                    status = 1;
-                }
-
-                //Juego desactualizado
-                else if (int.Parse(savVersion[i]) > int.Parse(appVersion[i]))
-                {
-                    status = 2;
-                    return;
-                }
-            }
-        }
-        status = 1;
-        return;
     }
 
     /// <summary>

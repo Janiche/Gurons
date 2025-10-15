@@ -1,0 +1,216 @@
+﻿Field,Default,en,es,pt,it
+Title.NewGame,,New game,Nuevo Juego,Novo Jogo,Nuovo Gioco
+Title.Store,,Store,Tienda,Loja,Shop
+Title.Settings,,Settings,Configuración,Configuração,Impostazione
+Title.Version,,Version,Versión,Versão,Versione
+Title.Planet,,Select a planet,Selecciona un Planeta,Selecione um Planeta,Seleziona un Pianeta
+Title.Reward,,Daily reward,Recompensa Diaria,Recompensa Diária,Premio quotidiano
+Title.Rate,,"Rate ""The Gurons""","Calificar  ""The Gurons""","Qualificar ""The Gurons""","Valuta ""The Gurons"""
+Title.Score,,Score:,Puntaje:,Pontuacão:,Punteggio
+Title.Best,,Record,Record,Recorde,Record
+Title.Pause,,Pause,Pausa,Pausa,Pausa
+Title.Congrats,,Congratulations!,¡¡Felicitaciones!!,Parabéns,Congratulazioni!!
+Title.ProductDescription,,Contains:,Contiene:,Contém,Contenuto
+Title.NoGameLife,,Wait a moment!,¡Un Momento!,¡Um Momento!,Un attimo!
+Title.ScratchWin,,Scrape and win,Raspa & Gana,Raspa e Ganha,Gratta eVince
+Title.Scratch,,Scrape!,¡¡Raspa!!,Raspa!!,Gratta!
+Title.Achievements,,Achievements,Logros,Conquistas,Realizzazioni
+Title.AchievementUnlocked,,Achievement unlocked,Logro Desbloqueado,Conquista desbloqueada,Obiettivo sbloccato
+Planet.Gravity,,Gravity,Gravedad,Gravidade,Gravità
+Planet.Wind,,Wind,Viento,Vento,Vento
+Planet.Progress,,Progress ,Progreso,Progresso,Progresso
+Planet.Best,,Best score,Mejor Puntaje,Melhor Pontuação,Migliore Punteggio
+Planet.Normal,,Play with no end and unlock new planets,Juega sin fin y desbloquea nuevos planetas,Joga sem parar y desbloqueia novos planetas,Gioca senza fine e sblocca nuovi pianeti
+Planet.Play,,Play,Jugar,Jogar,Giocare
+Planet.Unlocked.Title,,Unlocked planet,Planeta Desbloqueado,Planeta Desbloqueado,Pianeta Sbloccato
+Planet.Unlocked.Message,,You have unlocked the planet {0},Has desbloqueado el planeta {0},Você desbloqueou o planeta {0},Hai sbloccato il pianeta {0}
+Store.Lifes,,Lives,Vidas,Vidas,Vite
+Store.Diamonds,,Diamonds,Diamantes,Diamantes,Diamanti
+Store.Failed,,Failed purchase,Compra Fallida,Falha na compra,Acquisto fallito
+Store.Free,,Free,Gratis,Grátis,Gratis
+Store.Failed.Unknown,,Unable to complete purchase,No se ha podido completar la compra,A compra não concluiu,Non sei riuscito a fare l'acquisto
+Store.Failed.PaymentDeclined,,your payment was declined,Pago rechazado,Pagamento recusado,Pagamento rifiutato
+Store.Failed.ProductUnavailable,,Product not available,Producto no disponible,Produto não disponível ,Prodotto non disponibile
+Store.Failed.UserCancelled,,User has canceled the transaction,Usuario ha cancelado la transacción,O usuário cancelou a transacão ,L'utente ha cancelato l'operazione
+Store.Failed.InsufficientFounds,,Insufficient diamonds,Diamantes Insuficientes,Diamantes Insuficientes,Diamanti insufficienti
+Store.Failed.InsufficientCoins,,Insufficient coins,Monedas Insuficientes,Moedas Insuficientes,Monete insufficienti
+Store.Completed,,Successful purchase,Compra Exitosa,Compra bem Sucedida,Acquisto riuscito
+Store.Completed.Message,,Purchased product: <b><i>{0}</i></b>,Producto comprado: <b><i>{0}</i></b>,Produto Comprado: <b><i>{0}</i></b>,Prodotto acquistato: <b><i>{0}</i></b>
+Setting.LangTitle,,Language,Idioma,Idioma,Linguaggio
+Settings.Language,,English,Español,Português,Italiano
+Settings.Master,,General,General,Geral,Generale
+Settings.Music,,Music,Musica,Música,Musica
+Settings.Sfx,,Sound,Sonido,Som,Suono
+Settings.Restore,,Restore,Restaurar,Restaurar,Ristabilire
+Button.Unlock,,Unlock,Desbloquear,Desbloquear,Sbloccare
+Buttons.Back,,Return,Volver,Voltar,Ritornare
+Button.Play,,Play,Jugar,Jogar,Giocare
+Button.Retry,,Retry,Reintentar,Tentar de novo,Riprova
+Button.Continue,,Continue,Continuar,Continuar,Continuare
+Button.RateNow,,Rate,Calificar,Qualificar,Valutare
+Button.RateLater,,Later,Más Tarde,Mais Tarde,Più tardi
+Button.RateNever,,No. thanks,No. Gracias,Não. Obrigado,No. Grazie
+Button.Buy,,Purchase,Comprar,Comprar,Comprare
+Button.Ads,,Watch ads,Ver Publicidad,Ver Publicidade,Guardare la pubblicità
+Button.Menu,,Menu,Menú,Menu,Menù del gioco
+Button.Restart,,Restart,Reiniciar,Reiniciar,Riavviare
+Button.Quit,,Exit,Salir,Sair,Uscire
+Button.Keep,,Keep playing,Seguir Jugando,Continuar Jogando,Continuare la partita
+Button.NextPlanet,,Go to the selection,Ir a selección,Ir a selecao,Andare alla selezione
+Button.TutorialSkip,,Skip,Saltar,Pular ,Saltare
+Button.UpdateApp,,Reload,Actualizar,Atualizar,Aggiornare
+Button.Privacy,,Privacy,Privacidad,Privacidade,Privacy
+Button.Reclaim,,Reclaim,Reclamar,Recuperar,Reclamare
+one_life_bag.name,,A life,Una Vida,Uma Vida ,Una vita
+one_life_bag.description,,A new life to keep playing,Una nueva vida para seguir jugando,Uma vida nova para continuar jogando,Una nuova vita per continuare a giocare
+lifes_3_bag.name,,A small bottle,Botella pequeña,Garrafa pequena,Bottiglia piccola
+lifes_3_bag.description,,- 3 lives,- 3 vidas,-3 vidas, - 3 vite
+lifes_15_bag.name,,Medium bottle,Botella mediana,Garrafa média,Bottiglia Media
+lifes_15_bag.description,,- 15 lives,- 15 vidas,-15 vidas, - 15 vite
+lifes_25_bag.name,,Big bottle,Botella grande,Garrafa grande,Bottiglia Grande
+lifes_25_bag.description,,- 25 lives,- 25 vidas,-25 vidas, - 25 vite
+diamonds_25_bag.name,,Small bag,Bolsa pequeña,Bolsa pequena,Borsa piccola
+diamonds_25_bag.description,,25 diamonds,- 25 diamantes,-25 diamantes, - 25 diamanti
+diamonds_60_bag.name,,Medium bag,Bolsa mediana,Bolsa média,Borsa media
+diamonds_60_bag.description,,- 60 diamonds,- 60 diamantes,-60 diamantes, - 60 diamanti
+diamonds_100_bag.name,,Big bag,Bolsa grande,Bolsa grande,Borsa Grande
+diamonds_100_bag.description,,- 100 diamonds,- 100 diamantes,-100 diamantes, - 100 diamanti
+coins_400_bag.name,,Small box,Caja pequeña,Caixa pequena,Scattola piccola
+coins_400_bag.description,,- 400 coins,- 400 monedas,-400 moedas, - 400 monete
+coins_1000_bag.name,,Medium box,Caja mediana,Caixa média,Scattola media
+coins_1000_bag.description,,- 1000 coins,- 1000 monedas,-1000 moedas, - 1000 monedas
+coins_1800_bag.name,,Big box,Caja grande,Caixa grande,Scattola Grande
+coins_1800_bag.description,,- 1800 coins,- 1800 monedas,-1800 moedas, - 1800 monete
+extra_chance.name,,The chance,La oportunidad,A oportunidade,La opportunità
+extra_chance.description,,- 1 extra chance,- 1 oportunidad extra,-1 oportunidade extra, - 1 opportunità extra
+double_score.name,,double score,Doble Puntaje,Pontuacão dupla,Doppio punteggio
+double_score.description,,A score multiplier,- 1 multiplicador de puntaje x2,-1 multiplicador de pontuacão X2, - 1 moltiplicatore di punteggio
+Reward.Advice,,Watch videos to get daily prizes!,¡Mira videos para conseguir premios diarios!,Assista o video pra obter prêmios diários,Guarda videos per ottenere premi ogni giorno!
+Reward.Prize,,Prize {0},Premio {0},Prêmio {0},Premio {0}
+Reward.Unlock,,Watch a video to unlock,¡Mira un video para desbloquear!.,Assista o vídeo para desbloquear!!,Guarda un video per sbloccare!
+Reward.Watch,,Watch,Ver,Ver,Guardare
+Reward.Obtained,,Got it!,¡Obtenido!,Obtido,Ricevuto!
+Msg.NoGameLife,,You will need more <color=red>Lives</color> to retry this level.,Necesitarás más <color=red>Vidas </color> para reintentar el nivel.,Voce precisa de mais <color=red>vidas </color>para tentar novamente o nível.,Avrai bisogno di più <color=red>vite </color> per riprovare questo livello.
+Msg.NoMenuLife,,If you want to keep playing you can buy some lives in the store or watch some ads.,Si quieres seguir jugando; puedes comprar algunas vidas en nuestra tienda o ver algunos anuncios.,Se quiser continuar jogando; pode comprar algumas vidas em nossa loja ou ver algums anúncios ,Se vuoi continuare a giocare puoi comprare vite nello store
+Msg.NoPowerup,,Do you want to buy this <color=red> Power Up</color> to use it?,¿Deseas comprar este <color=red>Poder</color> para utilizarlo?,Deseja comprar este <color=red> Poder </color> para usá-lo?,Vuoi comprare questo <color=red>Potere</color> ?
+Msg.NewPlanet,,You have unlocked a new planet… check it on the planet section. ,Has desbloqueado un nuevo planeta.\nDescúbrelo en la selección de planetas.,Você desbloqueou um novo  planeta.\n Pode descobri-lo na seleção de planetas,Hai sbloccato un nuovo pianeta .\nScoprilo nella sezione dei pianeti
+Msg.Wait,,Wait please,Por favor espera,Aguarde por favor.,Aspetta pe favore
+Msg.Rate,,Are you enjoying The Gurons?\nDo you mind taking a moment to rate it? ,"Si disfrutas jugar ""The Gurons"". Te importara tomar un momento para calificarlo?","Ae gostou de jogar the gurons, se importaria de reservar um momento para avaliar?","Se hai goduto giocando  ""The Gurons"". Ti prendiresti un attimo per valutarlo?"
+Msg.LanguageSetted,,The default language has been set in <b>English</b>,El lenguaje por defecto ha sido fijado en <b>Español</b>.,O idioma padrao foi definido em <b>português</b>,Il linguaggio predefinito è <b>Italiano</b>.
+Msg.TutorialRetry,,Do you want to retry the tutorial?,¿Deséas reintentar el tutorial?,Deseja repetir o tutorial?,Vuoi riprovare il tutorial?
+Msg.TutorialCongrats,,You have unlocked the planets selection,Has desbloqueado la seleccion de Planetas,Desbloqueou a seleção de planetas,Hai sbloccato la sezione dei pianeti
+Msg.TutorialSkipWarning,,"(If you skip the tutorial, you will not be able to check it again)","(Si saltas el tutorial, no podrás volver a jugarlo)",(Se pular o tutorial não poderá voltar a joga-lo),"(Se vai avanti con il tutorial, non potrai tornare a giocarlo)"
+Msg.NoAds,,Advertising not available.\nTry later,Publicidad no disponible.\nIntenta más tarde.,Publicidade não disponível.\nTente mais tarde,Pubblicità non disponibile. \nProva più tardi
+Inet.NoReacheability,,Cannot connect.\nYou must activate mobile data or \nbe connected to a Wi-Fi network,No se puede establecer conexión.\nDebes activar los datos móviles o\nestar conectado a una red Wifi.,Não pode se establecer a conexão.\nDeve ativar os datos móveis ou se conectar a uma rede wi-fi,Non si può stabilire la connessione- \nAttiva i dati mobili o\n devi essere conesso alla rete WiFi
+Inet.NoConection,,Internet connection cannot be established., No se puede establecer conexión a internet.,Não é possível estabelecer  conexão a internet,Non si può stabilire la connessione a Internet
+Inet.NoService,,Service not available. Data will be saved locally.,Servicio no disponible.\nLos datos serán guardados de manera local.,Serviço não disponível.\nOs dados serão salvos localmente.,Servizio non disponibile. \nI dati saranno conservato di forma locale.
+Inet.NoServer,,Server not available.Please try again later,Servidor no disponible.\nPor favor intenta más tarde,Servidor não disponível por favor tente mais tarde ,Servizio non disponibile. \nRiprova più tardi
+Inet.NoSync,,Connection cannot be established.\nThe saved data will be synchronized\nthe next time you are online.,No se puede establecer conexion.\nLos datos de guardado se sincronizar\nla próxima vez que estés en linea.,A conexão não pode ser estabelecida.\nOs dados salvos são sincronizados na próxima vez que você estiver online.,Non si può stabilire la connessione. n\I dati saranno sincronizzati n\la possima volta che ti connetti alla rete
+Inet.NoStore,,Store not available without internet.,Tienda no disponible sin internet.,Loja não disponivel sem internet,Negozio non disponibile senza internet.
+Inet.NewVersion,,There is a new version of The Gurons in the store,Hay una nueva versión de The Gurons en la tienda,Há uma nova versão de the gurons na loja,C'e una nuova versione di The Gurons nella app store.
+Inet.State.Connecting,,Connecting…,Conectando...,Conetando…,Collegando...
+Inet.State.Server,,Connecting to the server,Conectando al servidor.,Conetando com o  servidor,Collegando al server.
+Inet.State.Service,,Checking service.,Comprobando servicio.,Verificando serviço,Controllando servizi
+Inet.State.Sync,,Synchronizing data,Sincronizando datos.,Sincronizando dados,sincronizzando I dati.
+Inet.State.CheckVersion,,Checking version.,Revisando versión,Verificando versão,Controllando versione
+Scratch.DoubleScore,,Double score,Doble Puntaje,Pontuação Dupla,Doppio punteggio
+Scratch.ExtraChance,,Extra chance,Oportunidad Extra,Oportunidade Extra,Opportunità extra
+Scratch.Coins,,Coins,Monedas,Moedas ,Monete
+Notification.PlayReminder.title,,Gurons miss you!,¡¡Los gurons te extrañan!!,Os gurons tem saudades de você!,I Gurons sentono la tua mancanza!
+Notification.PlayReminder.content,,The Gurons need your help! Touch here to help them..,Los gurons necesitan tu ayuda. Toca para ayudarlos,Os gurons precisam da sua ajuda. Toca para ajuda-los,I Gurons hanno bisogno del tuo aiuto. Toca per aiutarli
+Notification.Refill.title,,Recharge of lives complete !!,¡¡Recarga de vidas completa!!,Recarrega de vidas completa,Ricarica di vite piena!
+Notification.Refill.content,,Your lives are full,Tus vidas están al máximo,Suas vidas estão ao máximo,Le tue vite sono piene
+Notification.Update.title,,New update available,Nueva actualización disponible,Nova atualização disponível,Nuova aggiornamento disponibile
+Notification.Update.content,,There is a new version of The gurons to download,Hay una nueva version de The gurons para descargar,Há uma nova versão de the gurons para descarregar!!,C'e una nuova versione di The Gurons per scaricare
+Notification.Halloween.title,,Halloween event!,¡¡EVENTO DE HALLOWEEN!!,¡¡EVENTO DE HALLOWEEN!!,Evento di Halloween!
+Notification.Halloween.content,,Play the Halloween event and meet new characters,Juega el evento de Halloween y conoce nuevos personajes,Joge o evento de Halloween e conheça novos personagens,Gioca al evento di Halloween per conoscere i nuovi personaggi
+Notification.Christmas.title,,Merry Christmas,¡¡FELIZ NAVIDAD!!,FELIZ NATAL!!,Buon Natale!
+Notification.Christmas.content,,Today is Christmas and the gurons have a gift for you,Hoy es navidad y los gurons tienen un regalo para ti,Hoje é natal e os gurons tem um presente para você,Oggi è natale e i Gurons hanno un regalo per te
+Notification.Birthday.title,,Happy birthday!,¡¡FELIZ CUMPLEAÑOS!!,FELIZ ANIVERSARIO!!,Tanti Auguri!
+Notification.Birthday.content,,Today is your birthday and the gurons have a gift for you,Hoy es tu cumpleaños y los gurons quieren darte un regalo,Hoje é seu aniversario e os gurons querem te dar um presente,Oggi è il tuo compleanno e i Gurons vogliono darti un regalo
+Credits.Title,,Credits,Créditos,Créditos,Titoli di coda
+Credits.Developer,,Developed by,Desarrollado por,Desenvolvido por,Sviluppato per
+Credits.Programmer,,Programming,Programación,Programação,Programmazione
+Credits.Musician,,Music and Foley,Música y Foley,Música e Foley,Musica e Foley
+Credits.Designer,,Graphic design,Diseño Gráfico,Desenho Gráfico,Grafica
+Credits.Localization,,Localization,Localización,Localização,Localizazzione
+Credits.Rights,,All rights reserved to Bermost SPA,Todos los derechos reservados a Bermost SPA,Todos o direitos reservados a Bermost SPA,Tutti I diritti riservati a Bermost SPA
+Localization.English,,English,Inglés,Inglês,Inglese
+Localization.Spanish,,Spanish,Español,Espanhol,Spagnolo
+Localization.French,,French,Frances,Francês,Francese
+Localization.Italian,,Italian,Italiano,Italiano,Italiano
+Localization.German,,German,Alemán,Alemão,Tedesco
+Localization.Portuguese,,Portuguese,Portugués,Português,Portoghese
+Bermost.Title.Login,,Log in,Iniciar Sesión,Iniciar Sessão,Accedere
+Bermost.User,,User,Usuario,Usuário,Utente
+Bermost.Pass,,Password,Contraseña,Senha,Password
+Bermost.Forgot,,I forgot my password,Olvidé mi contraseña,Esquecí minha senha,Ho dimenticato il mio password
+Bermost.Policy,,Privacy politics,Política de Privacidad,Polítia de Privacidade,Politica sulla privacy
+Bermost.Button.Signin,,Log in,Iniciar Sesión,Iniciar sessão,Accedere
+Bermost.Button.Signup,,Create an account,Crear Cuenta,Criar Conta,Creare un account
+Bermost.Title.Signup,,Registry,Registro,Registro,Registrarsi
+Bermost.Name,,Name,Nombre,Nome,Nome
+Bermost.Birth,,Date of birth,Fecha de Nacimiento,Data de Nacimento,Data di nascita
+Bermost.Email,,Email,Email,E-mail,Email
+Bermost.Terms,,I accept the terms and conditions,Acepto los términos y condiciones,Aceito o termos e condiçoes,Accetto i termini e le condizioni
+Bermost.Error.WrongUser,,Incorrect user or password,Usuario o contraseña incorrecta,Usuário ou senha incorreta,Utente o password sbagliata
+Bermost.Error.NoUser,,Username does not exist,El usuario no existe,O usuário não existe,Il utente non esiste
+Bermost.Error.Duplicated,,Username already exists,El usuario ya existe,O usuário já existe,Il utente esiste già
+Achievements.UnlockKublener.Name,,Kublener: the first planet,Kublener: el primer planeta,Kublener: o primeiro planeta,Kublener: il primo pianeta
+Achievements.UnlockKublener.Description,,Complete the tutorial for “The Gurons”,Completa el tutorial de “The Gurons”,"Complete o tutorial para ""The Gurons""","Completa il tutorial per ""The Gurons"""
+Achievements.UnlockKzhar.Name,,Kzhar: the planet of fire,Kzhar: el planeta de fuego,Kzhar: o planeta do fogo,Kzhar: il pianeta del fuoco
+Achievements.UnlockKzhar.Description,,Complete the planet Kublener,Completa el planeta Kublener,Complete o planeta Kublener,Completa il pianeta Kublener
+Achievements.UnlockFuritsu.Name,,Furitsu: the frozen planet,Furitsu: el planeta helado,Furitsu: o planeta congelado,Furitsu: il pianeta ghiacciato
+Achievements.UnlockFuritsu.Description,,Complete the planet Kzhar,Completa el planeta Kzhar,Complete o planeta Kzhar,Completa il pianeta Kzhar
+Achievements.UnlockDrosera.Name,,Drosera: the selvatic planet,Drosera: el planeta serlvático,Drosera: o planeta serlvático,Drosera: il pianeta serlvatico
+Achievements.UnlockDrosera.Description,,Complete the Furitsu planet,Completa el planeta Furitsu,Complete o planeta Furitsu,Completa il pianeta Furitsu
+Achievements.UnlockQum.Name,,Qum: a planet in the desert,Qum: un planeta en el desierto,Qum: um planeta no deserto,Qum: un pianeta nel deserto
+Achievements.UnlockQum.Description,,Complete the planet Drosera,Completa el planeta Drosera,Complete o planeta Drosera,Completa il pianeta Drosera
+Achievements.UnlockKaristal.Name,,Karistal: the last horizon,Karistal: el último horizonte,Karistal: o último horizonte,Karistal: l'ultimo orizzonte
+Achievements.UnlockKaristal.Description,,Complete planet Qum,Completa el planeta Qum,Planeta completo Qum,Completa il pianeta Qum
+Achievements.AllPlanets.Name,,End of the road,Fin del camino,Fim do caminho,Fine della strada
+Achievements.AllPlanets.Description,,The gurons have reached their last planet,Los gurons han llegado a su último planeta,Os gurons chegaram ao seu último planeta,I guroni hanno raggiunto il loro ultimo pianeta
+Achievements.FirstLose.Name,,Your first life,Tu primera vida,Sua primeira vida,La tua prima vita
+Achievements.FirstLose.Description,,Lose a life,Pierde una vida,Perder uma vida,Perdere una vita
+Achievements.TenLose.Name,,Life destroyer,Destructor de vidas,Destruidor de vida,Distruttore di vita
+Achievements.TenLose.Description,,Lose 10 lives,Pierde 10 vidas,Perder 10 vidas,Perdere 10 vite
+Achievements.TwentyLose.Name,,The first 20 lives,Las primeras 20 vidas,As primeiras 20 vidas,Le prime 20 vite
+Achievements.TwentyLose.Description,,Lose 20 lives,Pierde 20 vidas,Perder 20 vidas,Perdi 20 vite
+Achievements.HundredLose.Name,,Lives without limits,Vidas sin límites,Vive sem limites,Vive senza limiti
+Achievements.HundredLose.Description,,Lose 100 lives,Pierde 100 vidas,Perca 100 vidas,Perdi 100 vite
+Achievements.FirstCenter.Name,,Just luck?,¿Solo suerte?,Pura sorte?,Solo fortuna?
+Achievements.FirstCenter.Description,,Place 1 Guron in the center of another,Coloca 1 Guron en el centro de otro,Coloque 1 Guron no centro de outro,Metti 1 Guron al centro di un altro
+Achievements.TenCenter.Name,,Luck does not exist,La suerte no existe,A sorte não existe,La fortuna non esiste
+Achievements.TenCenter.Description,,Place 10 Gurons in the center,Coloca 10 Gurons en el centro,Coloque 10 Gurons no centro,Posiziona 10 Guron al centro
+Achievements.HundredCenter.Name,,Ace of fortune,As de la fortuna,Ás da fortuna,Asso della fortuna
+Achievements.HundredCenter.Description,,Place 100 Gurons in the center,Coloca 100 Gurons en el centro,Coloque 100 Gurons no centro,Posiziona 100 Guron al centro
+Achievements.FirstSide.Name,,"Wow, almost","¡Uuff!, casi","Uau, quase","Caspita, quasi"
+Achievements.FirstSide.Description,,Place 1 Guron on the side of another.,Coloca 1 Guron en el lateral de otro.,Coloque 1 Guron ao lado de outro.,Posiziona 1 Guron sul lato di un altro.
+Achievements.FiveSide.Name,,The intention is what counts,La intención es lo que cuenta,A intenção é o que conta,L'intenzione è ciò che conta
+Achievements.FiveSide.Description,,Place 5 Gurons on the side,Coloca 5 Gurons en el lateral,Coloque 5 Gurons ao lado,Metti 5 guroni sul lato
+Achievements.FiftySide.Name,,50 and next,50 y al lado,50 e próximo,50 e successivi
+Achievements.FiftySide.Description,,Place 50 Gurons on the side,Coloca 50 Gurons en el lateral,Coloque 50 Gurons ao lado,Metti 50 guroni sul lato
+Achievements.FirstPlace.Name,,The first is not difficult,El primero no es dificil,O primeiro não é difícil,Il primo non è difficile
+Achievements.FirstPlace.Description,,Place your first Guron,Coloca tu primer Guron,Coloque seu primeiro Guron,Posiziona il tuo primo Guron
+Achievements.TenPlace.Name,,Height is not what matters,La altura no es lo que importa,Altura não é o que importa,L'altezza non è ciò che conta
+Achievements.TenPlace.Description,,Place 10 Gurons,Coloca 10 Gurons,Coloque 10 Gurons,Posiziona 10 guroni
+Achievements.FiftyPlace.Name,,Gureh's Shadows,Las sombras de Gureh,Sombras de Gureh,Gureh's Shadows
+Achievements.FiftyPlace.Description,,Place 50 Gurons,Coloca 50 Gurons,Coloque 50 Gurons,Posiziona 50 guroni
+Achievements.HundredPlace.Name,,Gureh 100 posts,Gureh 100 puestos,Gureh 100 publicações,Gureh 100 messaggi
+Achievements.HundredPlace.Description,,Place 100 Gurons,Coloca 100 Gurons,Coloque 100 Gurons,Posiziona 100 guron
+Achievements.ThousandPlace.Name,,To infinity and beyond,Al infinito y más allá,Ao infinito e além,Verso l'infinito e oltre
+Achievements.ThousandPlace.Description,,Place 1000 Gurons,Coloca 1000 Gurons,Coloque 1000 Gurons,Posiziona 1000 Guron
+Achievements.FirstFail.Name,,Zero precision,Nula precisión,Precisão zero,Precisione zero
+Achievements.FirstFail.Description,,Failure to place a Guron,Falla en colocar un Guron,Falha em colocar um Guron,Impossibile posizionare un Guron
+Achievements.TwentyFail.Name,,This time without fail,Esta vez sin fallar,Desta vez sem falhar,Questa volta a colpo sicuro
+Achievements.TwentyFail.Description,,Fail 20 times,Falla 20 veces,Falhar 20 vezes,Fallire 20 volte
+Achievements.FourtyFail.Name,,And it keeps failing,Y sigue fallando,E continua falhando,E continua a fallire
+Achievements.FourtyFail.Description,,Fail 40 times,Falla 40 veces,Falhar 40 vezes,Fallire 40 volte
+Achievements.HundredFail.Name,,If it's not that bad 100 times,Si no es tan malo 100 veces,Se não é tão ruim 100 vezes,Se non è così male 100 volte
+Achievements.HundredFail.Description,,Fail 100 times,Falla 100 veces,Falhar 100 vezes,Fallire 100 volte
+Achievements.ThousandFail.Name,,Limitless,Sin límites,Sem limites,Senza limiti
+Achievements.ThousandFail.Description,,Fail 1000 times,Falla 1000 veces,Falhar 1000 vezes,Fallire 1000 volte
+Achievements.Timer.Name,,The time is gold,El tiempo es oro,O tempo é ouro,Il tempo è oro
+Achievements.Timer.Description,,Play more than 10 hours,Juega más de 10 horas,Jogue mais de 10 horas,Gioca più di 10 ore
+Achievements.FirstTime.Name,,First time,Primera Vez,Primeira vez,Prima volta
+Achievements.FirstTime.Description,,The first time is the most important,La primera vez es la más importante,A primeira vez é a mais importante,La prima volta è la più importante

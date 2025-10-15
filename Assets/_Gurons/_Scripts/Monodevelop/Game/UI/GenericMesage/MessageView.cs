@@ -1,18 +1,17 @@
 ﻿using UnityEngine;
 
-using Doozy.Engine.UI;
 
-public class MessageView : MonoBehaviour
+public class MessageView : UIPanelAnimator
 {
-    [SerializeField] private UIView _panel;
+    //[SerializeField] private UIView _panel;
 
     public void _ActiveView()
     {
-        _panel.Show();
+        Show();
     }
 
     public void _ClosePanel()
     {
-        _panel.Hide();
+        Hide();
     }
 }

@@ -26,7 +26,7 @@ public class UIController : MonoBehaviour
     [SerializeField] private MessageController _unlockedController;
     [SerializeField] private GameOverController _gameOverController;
     [SerializeField] private EndTutorialController _endTutorialController;
-    [SerializeField] private GameObject _noAdsPanel;
+    [SerializeField] private UIPanelAnimator _noAdsPanel;
     [SerializeField] private WindDirectionController _windDirectionController;
     [SerializeField] private TextTable localizationTable = null;
 
@@ -223,7 +223,7 @@ public class UIController : MonoBehaviour
 
     public void _NoAds()
     {
-        _noAdsPanel.SetActive(true);
+        _noAdsPanel.Show();
         _blackPanel.SetActive(true);
     }
 

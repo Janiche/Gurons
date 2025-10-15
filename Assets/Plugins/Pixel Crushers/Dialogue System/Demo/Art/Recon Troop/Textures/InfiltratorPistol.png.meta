@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 908bfa029aab50e4c8fdc5b15be2cf0c
+guid: 1be016cef5745604498aafdd56b71795
 TextureImporter:
   serializedVersion: 2
   mipmaps:
@@ -47,6 +47,6 @@ AssetOrigin:
   serializedVersion: 1
   productId: 11672
   packageName: Dialogue System for Unity
-  packageVersion: 2.2.60
+  packageVersion: 2.2.61
   assetPath: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Art/Recon Troop/Textures/InfiltratorPistol.png
-  uploadId: 797136
+  uploadId: 804490

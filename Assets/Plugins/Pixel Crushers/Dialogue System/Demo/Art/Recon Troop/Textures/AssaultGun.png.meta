@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 5c41eb228d5af3a4da97692c372baedb
+guid: c30a899f682375f41b07f8e5353e8256
 TextureImporter:
   fileIDToRecycleName: {}
   externalObjects: {}
@@ -78,6 +78,6 @@ AssetOrigin:
   serializedVersion: 1
   productId: 11672
   packageName: Dialogue System for Unity
-  packageVersion: 2.2.60
+  packageVersion: 2.2.61
   assetPath: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Art/Recon Troop/Textures/AssaultGun.png
-  uploadId: 797136
+  uploadId: 804490

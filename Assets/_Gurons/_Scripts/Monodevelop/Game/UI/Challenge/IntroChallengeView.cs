@@ -3,11 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 
 using TMPro;
-using Doozy.Engine.UI;
 
 public class IntroChallengeView : MonoBehaviour
 {
-    [SerializeField] private UIView _view;
+    //[SerializeField] private UIView _view; //DOOZY
 
     [SerializeField] private TextMeshProUGUI _message;
 
@@ -21,11 +20,11 @@ public class IntroChallengeView : MonoBehaviour
 
     public void _ActiveView()
     {
-        _view.Show();
+        //_view.Show();
     }
 
     public void _ClosePanel()
     {
-        _view.Hide();
+        //_view.Hide();
     }
 }

@@ -5,11 +5,10 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-using TouchScript.Gestures;
 using PixelCrushers;
 using Bermost;
 
-public class ScratchPanel : MonoBehaviour
+public class ScratchPanel : UIPanelAnimator
 {
 
     #region VARIABLES 
@@ -183,7 +182,7 @@ public class ScratchPanel : MonoBehaviour
     }
 
 
-    public void _Scratch(Gesture _gesture)
+    /*public void _Scratch(Gesture _gesture)
     {
         Vector2 _realPos = _gesture.ActivePointers[0].Position;
 
@@ -206,7 +205,7 @@ public class ScratchPanel : MonoBehaviour
 
         }
 
-    }
+    }*/
 
     private void _EndScratch()
     {

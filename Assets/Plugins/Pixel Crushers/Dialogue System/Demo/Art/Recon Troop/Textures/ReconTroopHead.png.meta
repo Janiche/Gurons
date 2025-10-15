@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 8f8863d85194dca409e1cc5da2d60583
+guid: 3d0b1281bfde6af45a9f52e6a5e608ba
 TextureImporter:
   serializedVersion: 2
   mipmaps:
@@ -47,6 +47,6 @@ AssetOrigin:
   serializedVersion: 1
   productId: 11672
   packageName: Dialogue System for Unity
-  packageVersion: 2.2.60
+  packageVersion: 2.2.61
   assetPath: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Art/Recon Troop/Textures/ReconTroopHead.png
-  uploadId: 797136
+  uploadId: 804490

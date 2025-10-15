@@ -10,7 +10,6 @@ using PixelCrushers.DialogueSystem;
 using CodeStage.AntiCheat.ObscuredTypes;
 using Bermost;
 
-using Doozy.Engine.UI;
 /*
  * ****  ORDEN INICIALIZACIÓN  ****
  * 
@@ -45,7 +44,7 @@ public class Initialize : MonoBehaviour
 
     [Header("Localizacion")]
     //[Tooltip("Objeto de actualizador de localización")] [SerializeField] private UpdateTextMesh updateLocalized = null;
-    [SerializeField] private UIView _languagePanel;
+    //[SerializeField] private UIView _languagePanel;
     private bool _firstRun = false;
     //UILocalizationManager
     //[Tooltip("Objeto de actualizador de localización")] [SerializeField] private UILocalizationManager updateLocalized = null;
@@ -384,7 +383,7 @@ public class Initialize : MonoBehaviour
         }
         else
         {
-            _languagePanel.Show();
+            //_languagePanel.Show();
         }
     }
 

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-public class NoLifePanel : MonoBehaviour
+public class NoLifePanel : UIPanelAnimator
 {
 
     public void _EndOpen()

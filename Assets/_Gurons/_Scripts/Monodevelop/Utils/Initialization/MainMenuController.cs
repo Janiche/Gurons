@@ -74,30 +74,6 @@ public class MainMenuController : MonoBehaviour
             }
         }
 
-        //ACTIVA LA VERIFICACIÓN DE RECOMPENZA DIARIA
-        try
-        {
-            if (!GlobalVars.pirate)
-            {
-                version.text = "P." + GlobalVars.saveData.version;
-            }
-            else
-            {
-                version.text = GlobalVars.saveData.version;
-            }
-        }
-        catch (MissingReferenceException e)
-        {
-            if (!GlobalVars.pirate)
-            {
-                version.text = "P.ERROR";
-            }
-            else
-            {
-                version.text = "ERROR";
-            }
-        }
-
     /*
         if (AdsManager.instance != null)
         {
@@ -195,7 +171,7 @@ public class MainMenuController : MonoBehaviour
 
     private void NoAds(string placementId)
     {
-        _animatedPanelController._ShowNoAds();
+        //_animatedPanelController._ShowNoAds();
     }
 
 

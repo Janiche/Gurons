@@ -1,11 +1,10 @@
 ﻿using UnityEngine;
 
-using Doozy.Engine.UI;
 
 public class EndTutorialView : MonoBehaviour
 {
-    [SerializeField] private UIView _success;
-    [SerializeField] private UIView _failed;
+    [SerializeField] private UIPanelAnimator _success;
+    [SerializeField] private UIPanelAnimator _failed;
 
     public void _OnSuccess()
     {

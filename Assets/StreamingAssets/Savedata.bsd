@@ -1,35 +1,35 @@
 {
-  "version": "1.3.4",
+  "version": "1.0.0",
   "playerData": {
     "playerId": "",
-    "tutorial": true,
+    "tutorial": false,
     "inGame": false,
     "rated": false,
     "scratchIndex": 0,
-    "firstLogin": "2020-06-13T00:00:00-04:00",
-    "lastLogin": "2025-09-30T16:02:57.3176566-03:00",
-    "nextRate": "2021-03-05T00:00:00-03:00",
-    "lastGiven": "2025-09-30T16:02:57.3382734-03:00"
+    "firstLogin": null,
+    "lastLogin": "2025-10-15T09:58:08.8626515-03:00",
+    "nextRate": "2025-10-15T00:00:00-03:00",
+    "lastGiven": "2025-10-15T09:58:08.9023865-03:00"
   },
   "gameData": {
     "planetToUnlock": -1,
-    "totalBlox": 43,
-    "totalLoses": 13,
-    "totalFails": 46,
-    "totalCenter": 29,
-    "totalSide": 21,
+    "totalBlox": 0,
+    "totalLoses": 0,
+    "totalFails": 0,
+    "totalCenter": 0,
+    "totalSide": 0,
     "planetData": [
       {
         "name": "earth",
-        "bestRecord": 30,
-        "maxBlox": 30,
-        "unlocked": true
+        "bestRecord": 0,
+        "maxBlox": 0,
+        "unlocked": false
       },
       {
         "name": "fire",
         "bestRecord": 0,
         "maxBlox": 0,
-        "unlocked": true
+        "unlocked": false
       },
       {
         "name": "ice",
@@ -59,95 +59,10 @@
   },
   "rewardData": {
     "_assigned": true,
-    "_currentDay": 2,
+    "_currentDay": 1,
     "_currentAd": 0
   },
   "achivementData": {
-    "achivements": [
-      {
-        "id": 26,
-        "name": "FirstTime",
-        "unlocked": true,
-        "claimed": true
-      },
-      {
-        "id": 0,
-        "name": "FirstPlace",
-        "unlocked": true,
-        "claimed": true
-      },
-      {
-        "id": 1,
-        "name": "TenPlace",
-        "unlocked": true,
-        "claimed": true
-      },
-      {
-        "id": 4,
-        "name": "FirstCenter",
-        "unlocked": true,
-        "claimed": true
-      },
-      {
-        "id": 5,
-        "name": "TenCenter",
-        "unlocked": true,
-        "claimed": true
-      },
-      {
-        "id": 7,
-        "name": "FirstSide",
-        "unlocked": true,
-        "claimed": true
-      },
-      {
-        "id": 8,
-        "name": "FiveSide",
-        "unlocked": true,
-        "claimed": true
-      },
-      {
-        "id": 10,
-        "name": "FirstFail",
-        "unlocked": true,
-        "claimed": true
-      },
-      {
-        "id": 15,
-        "name": "FirstLose",
-        "unlocked": true,
-        "claimed": true
-      },
-      {
-        "id": 19,
-        "name": "UnlockKublener",
-        "unlocked": true,
-        "claimed": true
-      },
-      {
-        "id": 20,
-        "name": "UnlockKzhar",
-        "unlocked": true,
-        "claimed": true
-      },
-      {
-        "id": 11,
-        "name": "TwentyFail",
-        "unlocked": true,
-        "claimed": false
-      },
-      {
-        "id": 16,
-        "name": "TenLose",
-        "unlocked": true,
-        "claimed": false
-      },
-      {
-        "id": 12,
-        "name": "FourtyFail",
-        "unlocked": true,
-        "claimed": true
-      }
-    ]
+    "achivements": []
   }
 }

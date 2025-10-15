@@ -4,15 +4,14 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 
-using DG.Tweening;
+
 using PixelCrushers;
 
-using Doozy.Engine.UI;
 
 public class PlanetController : MonoBehaviour
 {
-    [Tooltip("Panel de selector de modo de juego")] [SerializeField] private UIView gameModeSelect = null;
-    [Tooltip("Panel de selector de powerUp")] [SerializeField] private UIView powerupSelect = null;
+    [Tooltip("Panel de selector de modo de juego")] [SerializeField] private UIPanelAnimator gameModeSelect = null;
+    [Tooltip("Panel de selector de powerUp")] [SerializeField] private UIPanelAnimator powerupSelect = null;
 
     [Header("Planets")]
     [Tooltip("Arreglo con planetas disponibles")] [SerializeField] private Planet[] _planets;

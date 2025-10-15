@@ -3,11 +3,10 @@
 using UnityEngine.UI;
 using TMPro;
 
-using Doozy.Engine.UI;
 
-public class GameOverView : MonoBehaviour
+public class GameOverView : UIPanelAnimator
 {
-    [SerializeField] private UIView _view;
+    //[SerializeField] private UIView _view; //
 
     [Header("Text field for Score")]
     [SerializeField] private TextMeshProUGUI _score;
@@ -93,12 +92,12 @@ public class GameOverView : MonoBehaviour
 
     public void _ActiveView()
     {
-        _view.Show();
+        Show();
     }
 
     public void _ClosePanel()
     {
-        _view.Hide();
+        Hide();
     }
 
 

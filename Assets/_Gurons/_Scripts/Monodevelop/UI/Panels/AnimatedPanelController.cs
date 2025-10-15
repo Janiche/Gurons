@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-using Doozy.Engine.UI;
 
 public class AnimatedPanelController : MonoBehaviour
 {
@@ -10,22 +9,22 @@ public class AnimatedPanelController : MonoBehaviour
 
     [Space]
     [Header("Panels")]
-    [SerializeField] UIView _adsPanel = null;
-    [SerializeField] UIView _noAdsPanel = null;
-    [SerializeField] UIView _scratchPanel = null;
-    [SerializeField] UIView _rateAppPanel = null;
-    [SerializeField] UIView _noLifePanel = null;
-    [SerializeField] UIView _creditPanel = null;
+    [SerializeField] UIPanelAnimator _adsPanel = null;
+    [SerializeField] UIPanelAnimator _noAdsPanel = null;
+    [SerializeField] UIPanelAnimator _scratchPanel = null;
+    [SerializeField] UIPanelAnimator _rateAppPanel = null;
+    [SerializeField] UIPanelAnimator _noLifePanel = null;
+    [SerializeField] UIPanelAnimator _creditPanel = null;
 
     public void _ShowAds()
     {
-        _adsPanel.Show();
+        _adsPanel.Show();//DOOZY
         _blackPanel.SetActive(true);
     }
 
     public void _ShowRateApp()
     {
-        _rateAppPanel.Show();
+        _rateAppPanel.Show();//DOOZY
         _blackPanel.SetActive(true);
     }
 

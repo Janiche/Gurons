@@ -33,6 +33,7 @@ MonoBehaviour:
     bold: 0
     italic: 0
     underline: 0
+  baseID: 1
   actors:
   - id: 1
     fields:
@@ -264,6 +265,14 @@ MonoBehaviour:
       alwaysForceResponseMenu: 1
       includeInvalidEntries: 0
       responseTimeout: 0
+      emTagForOldResponses: 0
+      emTagForInvalidResponses: 0
+      cancelSubtitle:
+        key: 27
+        buttonName: 
+      cancelConversation:
+        key: 27
+        buttonName: 
     nodeColor: 
     dialogueEntries:
     - id: 0
@@ -345,7 +354,7 @@ MonoBehaviour:
         type: 4
         typeString: CustomFieldType_Localization
       conversationID: 2
-      isRoot: 0
+      isRoot: 1
       isGroup: 0
       nodeColor: 
       delaySimStatus: 0
@@ -775,7 +784,8 @@ MonoBehaviour:
         y: 293.65802
         width: 160
         height: 30
-    canvasScrollPosition: {x: 0, y: 0}
+    entryGroups: []
+    canvasScrollPosition: {x: 157.83002, y: 6.165222}
     canvasZoom: 0.8109991
   - id: 3
     fields:
@@ -833,6 +843,14 @@ MonoBehaviour:
       alwaysForceResponseMenu: 1
       includeInvalidEntries: 0
       responseTimeout: 0
+      emTagForOldResponses: 0
+      emTagForInvalidResponses: 0
+      cancelSubtitle:
+        key: 27
+        buttonName: 
+      cancelConversation:
+        key: 27
+        buttonName: 
     nodeColor: 
     dialogueEntries:
     - id: 0
@@ -914,7 +932,7 @@ MonoBehaviour:
         type: 4
         typeString: CustomFieldType_Localization
       conversationID: 3
-      isRoot: 0
+      isRoot: 1
       isGroup: 0
       nodeColor: 
       delaySimStatus: 0
@@ -1770,8 +1788,9 @@ MonoBehaviour:
         y: 326.94904
         width: 160
         height: 30
-    canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 0.4299953
+    entryGroups: []
+    canvasScrollPosition: {x: 747.8114, y: 0}
+    canvasZoom: 0.8799949
   syncInfo:
     syncActors: 0
     syncItems: 0

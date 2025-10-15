@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e04a623fad57c9c47a5e8bf6de751455
+guid: d1d1fb71ed366fe4fb0c14bdb8fe9e62
 TextureImporter:
   serializedVersion: 2
   mipmaps:
@@ -47,6 +47,6 @@ AssetOrigin:
   serializedVersion: 1
   productId: 11672
   packageName: Dialogue System for Unity
-  packageVersion: 2.2.60
+  packageVersion: 2.2.61
   assetPath: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Art/Recon Troop/Textures/ReconTroop1024x1024_Red.png
-  uploadId: 797136
+  uploadId: 804490

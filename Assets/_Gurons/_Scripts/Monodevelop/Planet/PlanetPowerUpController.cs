@@ -1,10 +1,8 @@
 ﻿using UnityEngine;
 
-using Doozy.Engine.UI;
-
 public class PlanetPowerUpController : MonoBehaviour
 {
-    [SerializeField] private UIView _noPowerUpPanel;
+    [SerializeField] private UIPanelAnimator _noPowerUpPanel;
     [SerializeField] private GameObject _blackPanel;
 
     [SerializeField] private Constants._PowerUps _selectedPowerUp = Constants._PowerUps.none;
@@ -71,7 +69,7 @@ public class PlanetPowerUpController : MonoBehaviour
             {
                 _selectedPowerUp = Constants._PowerUps.NewChance;
 
-                _noPowerUpPanel.Show();
+                //_noPowerUpPanel.Show();
                 _blackPanel.SetActive(true);
                 _noExtraChancePanel.SetActive(true);
                 _noDoubleScorePanel.SetActive(false);

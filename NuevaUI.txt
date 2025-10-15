@@ -1,0 +1,31 @@
+Main Menu
+- AdsPanel (Hacer prefab)
+- X Alert
+- Credit Panel
+- No Ads (Hacer prefab)
+- NoLifePanel (Hacer prefab)
+- RateAppPanel
+- ScratchPanel
+
+Planets
+- X Alert
+- NoPowerUps
+- GameMode
+- PowerUp
+- PlanetData
+
+Achivements
+- Achivement Item
+
+Store
+- X Alert
+
+
+Game
+- Pause Controller
+- GameOverController
+- NoLifeController
+- UnlockedController
+- EndTutorialController
+- X Alert
+- X NoAds (Hacer prefab)
