@@ -4,9 +4,6 @@ using UnityEngine;
 
 using UnityEngine.Audio;
 
-using PixelCrushers;
-using PixelCrushers.DialogueSystem;
-
 using CodeStage.AntiCheat.ObscuredTypes;
 using Bermost;
 
@@ -48,7 +45,7 @@ public class Initialize : MonoBehaviour
     private bool _firstRun = false;
     //UILocalizationManager
     //[Tooltip("Objeto de actualizador de localización")] [SerializeField] private UILocalizationManager updateLocalized = null;
-    [Tooltip("Tabla de localización de UI")] [SerializeField] private TextTable localizedTextTable = null;
+    //[Tooltip("Tabla de localización de UI")] [SerializeField] private TextTable localizedTextTable = null;
 
 
 
@@ -245,17 +242,20 @@ public class Initialize : MonoBehaviour
 
         //SOLICITA IDIOMA DEL EQUIPO, EN CASO DE NO ESTAR DISPONIBLE
         //COLOCA INGLES COMO IDIOMA DEFECTO
-        string languageCode = Localization.GetLanguage(Application.systemLanguage);
+
+
+        /*string languageCode = Localization.GetLanguage(Application.systemLanguage);
 
         if (!localizedTextTable.HasLanguage((languageCode)))
         {
             languageCode = "en";
-        }
+        }*/
 
         //FIJA IDIOMA E INDICE
-        GlobalVars.prefData.languageCode = languageCode;
-        GlobalVars.prefData.systemLanguageCode = languageCode;
+        //GlobalVars.prefData.languageCode = languageCode;
+        //GlobalVars.prefData.systemLanguageCode = languageCode;
 
+        string languageCode = "en";
         //updateLocalized.UpdateText(languageCode);
         UpdateText(languageCode);
     }
@@ -357,8 +357,8 @@ public class Initialize : MonoBehaviour
 
         Notification _replayNotification = new Notification()
         {
-            _title = localizedTextTable.GetFieldText("Notification.PlayReminder.title"),
-            _content = localizedTextTable.GetFieldText("Notification.PlayReminder.content"),
+            /*_title = localizedTextTable.GetFieldText("Notification.PlayReminder.title"),
+            _content = localizedTextTable.GetFieldText("Notification.PlayReminder.content"),*/
             _fireTime = System.DateTime.Now.AddDays(3),
             _repeatInterval = new System.TimeSpan(6, 0, 0, 0)
         };
@@ -404,12 +404,12 @@ public class Initialize : MonoBehaviour
     {
         GlobalVars.prefData.languageCode = languageCode;
 
-        TextTable.currentLanguageID = localizedTextTable.GetLanguageID(languageCode);
+        /*TextTable.currentLanguageID = localizedTextTable.GetLanguageID(languageCode);
 
         if (DialogueManager.instance != null)
         {
             DialogueManager.SetLanguage(languageCode);
-        }
+        }*/
     }
 
     private void _CheckStore()

@@ -4,8 +4,6 @@ using UnityEngine;
 
 using NaughtyAttributes;
 
-using PixelCrushers;
-
 public class AchivementSystem : MonoBehaviour
 {
 
@@ -36,7 +34,7 @@ public class AchivementSystem : MonoBehaviour
 
     [SerializeField] private GameObject _canvas;
     [SerializeField] private string popupName = "AchievementPopup";
-    [SerializeField] private TextTable _textTable;
+    //[SerializeField] private TextTable _textTable;
     //[SerializeField] private UIPopup _popup; //DOOZY
 
     [Space]
@@ -188,7 +186,7 @@ public class AchivementSystem : MonoBehaviour
 
         string descKey = $"Achievements.{_ach._name}.Name";
 
-        if (_textTable != null)
+        /*if (_textTable != null)
         {
             description = _textTable.GetFieldText(descKey);
         }
@@ -196,7 +194,7 @@ public class AchivementSystem : MonoBehaviour
         else
         {
             description = descKey;
-        }
+        }*/
 
         //DOOZY
         /*_popup.Data.SetImagesSprites(_ach._icon);

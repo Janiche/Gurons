@@ -4,9 +4,6 @@ using System.Collections.Generic;
 using UnityEngine.UI;
 using Toggle = UnityEngine.UI.Toggle;
 using UnityEngine.Audio;
-using PixelCrushers;
-using TMPro;
-using PixelCrushers.DialogueSystem;
 
 //using AppodealAds.Unity.Api;
 //using AppodealAds.Unity.Common;
@@ -23,7 +20,7 @@ public class SettingsController : MonoBehaviour
 
     [Space]
     [Header("Localización")]
-    [SerializeField] private TextTable localizedTextTable = null;
+    //[SerializeField] private TextTable localizedTextTable = null;
     [Tooltip("Lista de idiomas disponibles (Language Code)")]
     [SerializeField]
     private List<string> languages = new List<string>()
@@ -161,12 +158,12 @@ public class SettingsController : MonoBehaviour
     {
         GlobalVars.prefData.languageCode = languageCode;
 
-        TextTable.currentLanguageID = localizedTextTable.GetLanguageID(languageCode);
+        /*TextTable.currentLanguageID = localizedTextTable.GetLanguageID(languageCode);
 
         if (DialogueManager.instance != null)
         {
             DialogueManager.SetLanguage(languageCode);
-        }
+        }*/
 
         //var localizedUI = FindObjectsOfType<LocalizeUIText>();
 

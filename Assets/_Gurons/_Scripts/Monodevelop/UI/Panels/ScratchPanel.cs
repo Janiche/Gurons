@@ -5,7 +5,6 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-using PixelCrushers;
 using Bermost;
 
 public class ScratchPanel : UIPanelAnimator
@@ -14,7 +13,7 @@ public class ScratchPanel : UIPanelAnimator
     #region VARIABLES 
 
     [SerializeField] private Camera _cam;
-    [SerializeField] private TextTable _textTable;
+    //[SerializeField] private TextTable _textTable;
 
     [SerializeField] private AlertPanel _alertPanel;
     [SerializeField] private Color _inactiveColor;
@@ -100,7 +99,7 @@ public class ScratchPanel : UIPanelAnimator
 
         _scratchedPercent = 0;
 
-        _scratchPrice.text = (_priceCost[_currentCost] > 0) ? _priceCost[_currentCost].ToString() : _textTable.GetFieldText("Store.Free");
+        //_scratchPrice.text = (_priceCost[_currentCost] > 0) ? _priceCost[_currentCost].ToString() : _textTable.GetFieldText("Store.Free");
     }
 
     public void _BuyTicket()
@@ -176,7 +175,7 @@ public class ScratchPanel : UIPanelAnimator
         }
 
         _prizeImage.sprite = _prizesList[_currentPrize]._prizeIcon;
-        _prizeText.text = $"{_textTable.GetFieldText(_id)} x{_prizesList[_currentPrize]._amount}";
+        //_prizeText.text = $"{_textTable.GetFieldText(_id)} x{_prizesList[_currentPrize]._amount}";
         //_prizeText.text = _textTable.GetFieldText(_id) + " x" + _prizesList[_currentPrize]._amount.ToString();
 
     }

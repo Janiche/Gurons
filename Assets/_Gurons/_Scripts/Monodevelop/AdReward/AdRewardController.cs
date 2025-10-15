@@ -2,7 +2,6 @@
 using UnityEngine;
 
 using TMPro;
-using PixelCrushers;
 
 namespace Bermost
 {
@@ -16,14 +15,14 @@ namespace Bermost
         [SerializeField] private int _maxAd = 4;
 
         [Space]
-        [SerializeField] private TextTable textTable = null;
+        //[SerializeField] private TextTable textTable = null;
 
         [Space]
         [SerializeField] private List<Day> _days;
         [SerializeField] private List<AdReward> _adRewards;
         int _currentAd = 0;
 
-        string _key;
+        string _key = string.Empty;
 
         //SynchronizationContext ctx;
 
@@ -45,7 +44,7 @@ namespace Bermost
             //ctx = SynchronizationContext.Current;
 
             _remainingAd = _maxAd;
-            _key = textTable.GetFieldText("Reward.Prize");
+            //_key = textTable.GetFieldText("Reward.Prize");
 
             _FillDay();
         }

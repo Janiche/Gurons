@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using PixelCrushers.DialogueSystem;
 
 [CreateAssetMenu(menuName = "Bermost/GameMode/Tutorial")]
 
@@ -21,13 +20,13 @@ public class TutorialMode : GameMode
         //GameManager._instance._GenerateGuron();
         TutorialStateMachine._ChangeState(TutorialStateMachine.TutorialState.welcome);
 
-        DialogueLua.SetVariable("FailedGuron", false);
-        DialogueLua.SetVariable("isFirstPlaced", false);
+        /*DialogueLua.SetVariable("FailedGuron", false);
+        DialogueLua.SetVariable("isFirstPlaced", false);*/
 
 
         GameManager._instance._game = false;
 
-        DialogueManager.Instance.StartConversation("Tutorial_Start", _gameManagerTransform);
+        //DialogueManager.Instance.StartConversation("Tutorial_Start", _gameManagerTransform);
 
     }
 
@@ -81,9 +80,9 @@ public class TutorialMode : GameMode
     public override void _FailGuron()
     {
         GameManager._instance._SetCenterIndex(0);
-        int _failed = DialogueLua.GetVariable("FailedGuron").asInt;
+        /*int _failed = DialogueLua.GetVariable("FailedGuron").asInt;
         _failed++;
-        DialogueLua.SetVariable("FailedGuron", _failed);
+        DialogueLua.SetVariable("FailedGuron", _failed);*/
 
         _guronFailed = true;
 
@@ -91,20 +90,20 @@ public class TutorialMode : GameMode
         {
             case TutorialStateMachine.TutorialState.waitingFirstPlace:
 
-                DialogueLua.SetVariable("isFirstPlaced", false);
+                //DialogueLua.SetVariable("isFirstPlaced", false);
                 TutorialStateMachine._ChangeState(TutorialStateMachine.TutorialState.firstFailed);
                 break;
         }
 
 
-        if (_failed == 3)
+        /*if (_failed == 3)
         {
             TutorialStateMachine._ChangeState(TutorialStateMachine.TutorialState.missionFailed);
-        }
+        }*/
         //Debug.Log("FAILED");
         //GameManager._instance._game = false;
         //GameManager._instance._GenerateGuron();
-        DialogueManager.Instance.StartConversation("Place_Quest", _gameManagerTransform);
+        //DialogueManager.Instance.StartConversation("Place_Quest", _gameManagerTransform);
     }
 
     public override void _EndGuron()
@@ -119,9 +118,9 @@ public class TutorialMode : GameMode
             case TutorialStateMachine.TutorialState.waitingFirstPlace:
 
                 GameManager._instance._game = false;
-                DialogueLua.SetVariable("isFirstPlaced", true);
+                //DialogueLua.SetVariable("isFirstPlaced", true);
                 TutorialStateMachine._ChangeState(TutorialStateMachine.TutorialState.firstSuccess);
-                DialogueManager.Instance.StartConversation("Place_Quest", _gameManagerTransform);
+                //DialogueManager.Instance.StartConversation("Place_Quest", _gameManagerTransform);
 
                 break;
 
@@ -129,13 +128,13 @@ public class TutorialMode : GameMode
 
                 if (GlobalVars.blox < 11)
                 {
-                    DialogueLua.SetVariable("PlacedGuron", GlobalVars.blox - 1);
+                    //DialogueLua.SetVariable("PlacedGuron", GlobalVars.blox - 1);
                 }
                 else
                 {
-                    DialogueLua.SetVariable("PlacedGuron", 10);
+                    //DialogueLua.SetVariable("PlacedGuron", 10);
                     GameManager._instance._game = false;
-                    DialogueManager.Instance.StartConversation("Place_Quest", _gameManagerTransform);
+                    //DialogueManager.Instance.StartConversation("Place_Quest", _gameManagerTransform);
                     TutorialStateMachine._ChangeState(TutorialStateMachine.TutorialState.missionDone);
                 }
 

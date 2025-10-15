@@ -5,7 +5,6 @@ using UnityEngine;
 using UnityEngine.UI;
 
 
-using PixelCrushers;
 
 
 public class PlanetController : MonoBehaviour
@@ -35,7 +34,7 @@ public class PlanetController : MonoBehaviour
     [SerializeField] private StoreProduct _score;
 
     [SerializeField] private PlanetPowerUpController _planetPowerUpController;
-    [SerializeField] private TextTable localizationTable;
+//    [SerializeField] private TextTable localizationTable;
     int _toUnlock = -1;
 
     private Coroutine _unlockCoroutine;
@@ -83,13 +82,16 @@ public class PlanetController : MonoBehaviour
         }
 
 
-        string _name = localizationTable.GetFieldText(_chance.productId + ".name");
-        string _desc = localizationTable.GetFieldText(_chance.productId + ".description");
+        //string _name = localizationTable.GetFieldText(_chance.productId + ".name");
+        //string _desc = localizationTable.GetFieldText(_chance.productId + ".description");
+
+        string _name = string.Empty;
+        string _desc = string.Empty;
 
         _chance._Init(_name, _desc);
 
-        _name = localizationTable.GetFieldText(_score.productId + ".name");
-        _desc = localizationTable.GetFieldText(_score.productId + ".description");
+        /*_name = localizationTable.GetFieldText(_score.productId + ".name");
+        _desc = localizationTable.GetFieldText(_score.productId + ".description");*/
 
         _score._Init(_name, _desc);
 
@@ -272,7 +274,9 @@ public class PlanetController : MonoBehaviour
 
     public void OnPurchaseSuccess(BuyStatus _status, FailedReason _reason, string productId)
     {
-        string _name = localizationTable.GetFieldText(productId + ".name");
+        //string _name = localizationTable.GetFieldText(productId + ".name");
+
+        string _name = string.Empty;
         alertsMessages.ShowSuccessAlert(_name);
         _planetPowerUpController._OcultarNoPowerUp(false);
         _planetPowerUpController._AsignarPostCompra();

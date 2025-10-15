@@ -4,7 +4,6 @@ using UnityEngine;
 using TMPro;
 using Bermost;
 using UnityEngine.UI;
-using PixelCrushers;
 
 
 
@@ -28,7 +27,7 @@ public class MainMenuController : MonoBehaviour
     [Header("EXTRAS")]
 
     //[SerializeField] private GameObject _lifeSystemPrefab;
-    [SerializeField] private TextTable _localizedTextTable;
+    //[SerializeField] private TextTable _localizedTextTable;
     [SerializeField] private GameObject _forbiddenScratch;
     [SerializeField] private Button _scratch;
 

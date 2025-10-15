@@ -1,8 +1,6 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 
-using PixelCrushers.DialogueSystem;
-using PixelCrushers;
 
 public class GameMode : ScriptableObject
 {

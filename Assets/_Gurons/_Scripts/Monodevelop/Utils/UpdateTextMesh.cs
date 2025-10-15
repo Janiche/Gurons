@@ -2,12 +2,10 @@
 //using System.Collections.Generic;
 using UnityEngine;
 
-using PixelCrushers.DialogueSystem;
-using PixelCrushers;
 
 public class UpdateTextMesh : MonoBehaviour
 {
-    [Tooltip("Tabla de localización de UI")] [SerializeField] private TextTable localizedTextTable = null;
+    //[Tooltip("Tabla de localización de UI")] [SerializeField] private TextTable localizedTextTable = null;
 
     /// <summary>
     /// Actualiza todo TextMesh en escena
@@ -16,11 +14,11 @@ public class UpdateTextMesh : MonoBehaviour
     {
         GlobalVars.prefData.languageCode = languageCode;
 
-        TextTable.currentLanguageID = localizedTextTable.GetLanguageID(languageCode);
+       /* TextTable.currentLanguageID = localizedTextTable.GetLanguageID(languageCode);
 
         if (DialogueManager.instance != null)
         {
             DialogueManager.SetLanguage(languageCode);
-        }
+        }*/
     }
 }

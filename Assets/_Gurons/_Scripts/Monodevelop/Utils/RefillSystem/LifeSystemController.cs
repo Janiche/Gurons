@@ -4,7 +4,6 @@ using System.Collections.Generic;
 using UnityEngine;
 
 using NaughtyAttributes;
-using PixelCrushers;
 
 public class LifeSystemController : MonoBehaviour
 {
@@ -57,7 +56,7 @@ public class LifeSystemController : MonoBehaviour
 
     [SerializeField] private bool _initialized = false;
 
-    [SerializeField] private TextTable _textTable;
+    //[SerializeField] private TextTable _textTable;
     [SerializeField] private Notification lifeNotification;
 
     Coroutine _restore;
@@ -296,8 +295,8 @@ public class LifeSystemController : MonoBehaviour
 
             lifeNotification = new Notification()
             {
-                _title = _textTable.GetFieldText("Notification.Refill.title"),
-                _content = _textTable.GetFieldText("Notification.Refill.content"),
+                /*_title = _textTable.GetFieldText("Notification.Refill.title"),
+                _content = _textTable.GetFieldText("Notification.Refill.content"),*/
                 _fireTime = _AddDuration(DateTime.Now, _time),
                 _repeatInterval = new TimeSpan(0, 2, 0)
             };

@@ -6,7 +6,6 @@ using TMPro;
 using Toggle = UnityEngine.UI.Toggle;
 
 using UnityEngine.Audio;
-using PixelCrushers;
 
 public class SettingsButton : MonoBehaviour
 {
@@ -21,7 +20,7 @@ public class SettingsButton : MonoBehaviour
             "en",
             "es"
         };
-    [SerializeField] private TextTable textTable = null;
+    //[SerializeField] private TextTable textTable = null;
 
     [Header("Sonido")]
     [Tooltip("Interruptor de música")] [SerializeField] private Toggle musicVol = null;

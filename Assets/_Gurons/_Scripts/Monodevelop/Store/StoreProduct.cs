@@ -7,7 +7,6 @@ using TMPro;
 using UnityEngine.Events;
 //using PixelCrushers.DialogueSystem;
 using UnityEngine.UI;
-using PixelCrushers;
 
 //using CodeStage.AntiCheat.ObscuredTypes;
 

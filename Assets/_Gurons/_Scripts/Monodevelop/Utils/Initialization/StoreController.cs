@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-using PixelCrushers;
 using UnityEngine.Events;
 
 public class StoreController : MonoBehaviour
@@ -17,7 +16,7 @@ public class StoreController : MonoBehaviour
 
     [Space]
     [Header("Localización")]
-    [SerializeField] private TextTable localizationTable = null;
+    //[SerializeField] private TextTable localizationTable = null;
 
     [Space]
     [SerializeField] private List<StoreProduct> productList;
@@ -58,17 +57,20 @@ public class StoreController : MonoBehaviour
     {
         foreach (StoreProduct p in productList)
         {
-            string _name = localizationTable.GetFieldText(p.productId + ".name");
-            string _desc = localizationTable.GetFieldText(p.productId + ".description");
+            /*string _name = localizationTable.GetFieldText(p.productId + ".name");
+            string _desc = localizationTable.GetFieldText(p.productId + ".description");*/
 
+            string _name = string.Empty;
+            string _desc = string.Empty;
             p._Init(_name, _desc);
         }
     }
 
     public void OnPurchaseSuccess(BuyStatus _status, FailedReason _reason, string _productId)
     {
-        string _name = localizationTable.GetFieldText(_productId + ".name");
+        //string _name = localizationTable.GetFieldText(_productId + ".name");
 
+        string _name = string.Empty;
         alertsMessages.ShowSuccessAlert(_name);
         _blackPanel.SetActive(true);
         onPurchaseComplete.Invoke();

@@ -4,7 +4,6 @@ using UnityEngine;
 
 
 using UnityEngine.UI;
-using PixelCrushers;
 
 public class AchivementsController : MonoBehaviour
 {
@@ -17,7 +16,7 @@ public class AchivementsController : MonoBehaviour
     }
 
 
-    [SerializeField] private TextTable _textTable;
+    //[SerializeField] private TextTable _textTable;
 
     [Space]
     [SerializeField] private GameObject _achivementItem;
@@ -45,8 +44,12 @@ public class AchivementsController : MonoBehaviour
             string descKey = $"Achievements.{_achivements[i].name}.Description";
 
 
-            string title = _textTable.GetFieldText(nameKey);
+          /*string title = _textTable.GetFieldText(nameKey);
             string description = _textTable.GetFieldText(descKey);
+            */
+
+            string title = string.Empty;
+            string description = string.Empty;
 
             _item._Init(title, description, _ach, _achivements[i].unlocked, _achivements[i].claimed);
 

@@ -1,5 +1,4 @@
-﻿using PixelCrushers;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
 
@@ -28,7 +27,7 @@ public class UIController : MonoBehaviour
     [SerializeField] private EndTutorialController _endTutorialController;
     [SerializeField] private UIPanelAnimator _noAdsPanel;
     [SerializeField] private WindDirectionController _windDirectionController;
-    [SerializeField] private TextTable localizationTable = null;
+    //[SerializeField] private TextTable localizationTable = null;
 
     [Space]
     [Header("Store")]
@@ -60,10 +59,10 @@ public class UIController : MonoBehaviour
 
         _windDirectionController._Init(_intensity);
 
-        string _name = localizationTable.GetFieldText(_oneLife.productId + ".name");
-        string _desc = localizationTable.GetFieldText(_oneLife.productId + ".description");
+        /*string _name = localizationTable.GetFieldText(_oneLife.productId + ".name");
+        string _desc = localizationTable.GetFieldText(_oneLife.productId + ".description");*/
 
-        _oneLife._Init(_name, _desc);
+        //_oneLife._Init(_name, _desc);
 
         Store.OnPurchaseFail += OnPurchaseFail;
         Store.OnPurchaseSuccess += OnPurchaseSuccess;
@@ -236,7 +235,8 @@ public class UIController : MonoBehaviour
 
     public void OnPurchaseSuccess(BuyStatus _status, FailedReason _reason, string productId)
     {
-        string _name = localizationTable.GetFieldText(productId + ".name");
+        //string _name = localizationTable.GetFieldText(productId + ".name");
+        string _name = string.Empty;
         Debug.LogError("PURCHSED");
         alertsMessages.ShowSuccessAlert(_name);
         _gameOverController._UpdateStatus();
